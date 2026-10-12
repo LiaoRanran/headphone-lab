@@ -66,9 +66,11 @@ LEVEL_JND_DB = 1.0
 #: 精确分贝数 → 这里的值标为「工程估计」，用于分级而非判判决。
 LOW_SHELF_JND_DB = 3.0
 
-#: 影响前后方位判别的频段（ICA 研究）。这一维本项目当前未建模，
-#: 单独报出来，是为了不把它悄悄算进"音色"里。
-SPATIAL_BAND = (100.0, 1600.0)
+#: 影响前后方位判别的频段。**口径以 `spatial.py` 为准** —— 那一维的文献登记、
+#: 机制推导与计算都在那里（`src/spatial.py`），这里只引用，避免两处漂移。
+#: 注意它在 `spatial.py` 里是**未取到原文**的条目，因此**不作判据**，
+#: 只用于"别把它悄悄算进音色里"这件事。
+from spatial import SPATIAL_BAND  # noqa: E402
 
 
 def classify_band(f: float) -> str:
