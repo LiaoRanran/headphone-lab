@@ -206,10 +206,17 @@ def rank(cfg, w_override=None):
             cm = [st.mean([x[i] for x in chosen]) for i in range(n)]
             s += 0.6 * max(0.0, 3.0 - math.sqrt(sum((curve[i] - cm[i]) ** 2 for i in range(n)) / n))
         rows.append({"name": name, "score": s, "rms": rms, "pf": pf,
-                     "spread": g["spread"], "n_src": len(g["sources"]), "f": g["features_t"]})
+                     "spread": g["spread"], "n_src": len(g["sources"]), "f": g["features_t"],
+                     # 曲线与目标一起带出来，供 tier_report 做频率维 bootstrap。
+                     # 不让 tier_report 自己重算——那会造出第二套口径，
+                     # 分档和得分就对不上了。
+                     "_curve": curve, "_target": target})
     rows.sort(key=lambda r: -r["score"])
     meta = {"basis": basis, "like": cfg.get("like", []), "dislike": cfg.get("dislike", []),
-            "n_models": len(rows), "n_curves": len(D["models"]), "music": music_note}
+            "n_models": len(rows), "n_curves": len(D["models"]), "music": music_note,
+            # 感知权重与峰护栏也带出来，bootstrap 必须用同一套参数重算，
+            # 否则分档与得分的口径不一致
+            "_W": W, "_pg": pg, "_grid": grid}
     return rows, meta
 
 
@@ -217,6 +224,72 @@ def badge(r):
     if r["spread"] is None:
         return "单源"
     return ("跨源一致 %.1f(%d源)" if r["spread"] <= 1.5 else "跨源分歧 %.1f(%d源)") % (r["spread"], r["n_src"])
+
+
+def tier_report(rows, meta, n=12, n_boot=200, seed=0):
+    """把前 n 名按 bootstrap 置信区间重叠分档，并说清这串数字能承受多重的解读。
+
+    **为什么必须有这个**：得分是一个加权 RMS 偏差，把它当排行榜用等于按噪声排序。
+    stats.py 实测：Harman 基准下前 14 名 CI 全部重叠、连 #1 与 #2 都不可区分。
+    既然自己的统计这么说，输出却不打印分档，就是在纵容误读。
+
+    分档规则：按 CI 上限降序扫，上限不低于当前档最低下限的并入同档。
+    """
+    import random
+    import stats
+    W, pg, grid = meta["_W"], meta["_pg"], meta["_grid"]
+    idx_all = list(range(len(grid)))
+    rng = random.Random(seed)
+
+    out = []
+    for r in rows[:n]:
+        curve, target = r["_curve"], r["_target"]
+        base = stats._score(curve, target, grid, W, pg, idx_all)
+        vals = []
+        for _ in range(n_boot):
+            sub = rng.choices(idx_all, k=len(idx_all))
+            vals.append(stats._score(curve, target, grid, W, pg, sub))
+        vals.sort()
+        out.append({"name": r["name"], "score": base,
+                    "lo": vals[int(0.025 * len(vals))],
+                    "hi": vals[int(0.975 * len(vals))]})
+
+    out.sort(key=lambda x: -x["hi"])
+    tiers, cur = [], [out[0]]
+    for o in out[1:]:
+        if o["hi"] >= cur[-1]["lo"] - 1e-9:
+            cur.append(o)
+        else:
+            tiers.append(cur)
+            cur = [o]
+    tiers.append(cur)
+
+    print("\n── 分档（同档内名次差异不可解读）────────────────────────────")
+    for i, t in enumerate(tiers, 1):
+        print("  第 %d 档（%2d 款，CI 跨度 %.1f–%.1f）：%s"
+              % (i, len(t), min(x["lo"] for x in t), max(x["hi"] for x in t),
+                 "、".join(x["name"][:20] for x in t)))
+    return tiers
+
+
+#: 表头。写「候选（非排名）」而不写「排名」：ordinal 编号会让人以为可以按序下单，
+#: 而下面的分档会说清同档内根本不可区分。**措辞要与数据的效力相称。**
+TABLE_HEADER = ("序", "候选（非排名）", "得分", "RMS", "峰dB", "跨源")
+
+
+DISCLAIMER = """\
+────────────────────────────────────────────────────────────────────
+这是**推荐候选集**，不是测量结论，更不是"排名"。
+
+这个分数只衡量一件事：实测频响曲线与某条目标曲线的加权 RMS 偏差。
+它**不能**告诉你：声场、结像、瞬态、大音量失真、单元一致性、佩戴、
+隔音、做工、驱动难度、保值率——这些要么测不到，要么没测。
+相邻名次的分差在统计上几乎必然不显著（下面有分档），
+把它当排行榜按序下单，等于按噪声下单。
+
+低频目标"该补多少"取决于你的音量与偏好，**测量推不出来**，
+所以本工具只负责告诉你"补了会怎样"，不替你决定补多少。
+────────────────────────────────────────────────────────────────────"""
 
 
 def main():
@@ -239,18 +312,37 @@ def main():
                     help="积分域改用 Bark 临界频带（默认 1/12 倍频程网格）。"
                          "实测 50Hz 处后者比前者窄 26 倍，低频误差被过度代表")
     ap.add_argument("--top", type=int, default=20)
+    ap.add_argument("--mainstream", action="store_true",
+                    help="只保留国内能买到、常见于讨论的型号（见 data/mainstream_match.json "
+                         "的 _whitelist）。默认不开——测量库天然偏向发烧友与小众型号，"
+                         "但这个开关是主观的「常见」判断，不是测量结论，所以不默认开")
+    ap.add_argument("--no-tiers", dest="tiers", action="store_false",
+                    help="不打印 bootstrap 分档（默认打印）")
+    ap.add_argument("--boot", type=int, default=200, help="分档的 bootstrap 次数")
     a = ap.parse_args()
+    cfg = vars(a)
+    if a.mainstream:
+        import json
+        import os
+        p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data",
+                         "mainstream_match.json")
+        with open(p, encoding="utf-8") as f:
+            cfg["only"] = json.load(f)["_whitelist"]
 
-    rows, meta = rank(vars(a))
+    rows, meta = rank(cfg)
     cn = "相对来源目标曲线(Harman 系)" if meta["basis"] == "target" else "相对人群基线"
     print("基准：%s ｜ 目标 低频%+.1f / presence%+.1f / 高频%+.1f ｜ 峰护栏 %.1f"
           % (cn, a.bass, a.presence, a.treble, a.peak_guard))
     if meta["like"] or meta["dislike"]:
         print("锚点：喜欢 %s ｜ 讨厌 %s（锚点少→置信低）" % (meta["like"] or "—", meta["dislike"] or "—"))
     print("样本 %d 型号 / %d 条曲线\n" % (meta["n_models"], meta["n_curves"]))
-    print("%-3s %-40s %6s %6s %7s %s" % ("#", "型号", "得分", "RMS", "峰dB", "跨源"))
+    print(DISCLAIMER)
+    # 表头写「候选」不写「排名」——见 TABLE_HEADER 注释
+    print("\n%-3s %-40s %6s %6s %7s %s" % TABLE_HEADER)
     for i, r in enumerate(rows[:a.top], 1):
         print("%-3d %-40s %6.1f %6.1f %+7.1f %s" % (i, r["name"][:40], r["score"], r["rms"], r["pf"], badge(r)))
+    if a.tiers:
+        tier_report(rows, meta, n=min(a.top, 12), n_boot=a.boot)
 
     if a.explain:
         for r in [x for x in rows if a.explain.lower() in x["name"].lower()][:3]:
