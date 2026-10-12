@@ -210,10 +210,10 @@ if __name__ == "__main__":
     ap.add_argument("--treble", type=float, default=0.0)
     ap.add_argument("--top", type=int, default=15)
     ap.add_argument("--boot", type=int, default=400)
+    ap.add_argument("--bark", action="store_true", help="积分域改用 Bark 临界频带")
     a = ap.parse_args()
-    rows, meta = engine.rank({"basis": "target", "bass": a.bass,
-                              "presence": a.presence, "treble": a.treble,
-                              "peak_guard": 4.5, "wired_only": True,
-                              "min_sources": 1})
-    report(rows, {"basis": "target", "bass": a.bass, "presence": a.presence,
-                  "treble": a.treble, "peak_guard": 4.5}, top=a.top, n_boot=a.boot)
+    cfg = {"basis": "target", "bass": a.bass, "presence": a.presence,
+           "treble": a.treble, "peak_guard": 4.5, "wired_only": True,
+           "min_sources": 1, "bark": a.bark}
+    rows, meta = engine.rank(cfg)
+    report(rows, cfg, top=a.top, n_boot=a.boot)

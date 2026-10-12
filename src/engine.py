@@ -154,17 +154,47 @@ def rank(cfg, w_override=None):
         target.append(t)
 
     rows = []
+    # ---- 积分域：默认 1/12 倍频程网格（旧行为），可切到 Bark 临界频带 ----
+    # 为什么要这个开关：网格按恒定比例分布，而人耳按临界频带分析。
+    # 实测 50 Hz 处 1/12 倍频带比 Bark 带窄 26 倍 —— 等于 50Hz 上同样的 dB 误差
+    # 对 RMS 的贡献是 1kHz 的 26 倍。感知权重部分补偿，但"权重"和"积分域"
+    # 是两件事，用一个参数干两件事会互相牵扯。
+    bark_edges = None
+    band_w: dict[int, float] = {}
+    if cfg.get("bark"):
+        import perceptual
+        bark_edges = perceptual.bark_edges()
+        acc: dict[int, list[float]] = {}
+        for i, k in enumerate(perceptual.band_index(grid, bark_edges)):
+            if k >= 0:
+                acc.setdefault(k, []).append(W(grid[i]) * (dw[i] if dw else 1.0))
+        band_w = {k: sum(v) / len(v) for k, v in acc.items()}
+
     for name, g in G.items():
         curve = g[KEY]
-        sw = se = sp = 0.0
-        for i in range(n):
-            w = W(grid[i]) * (dw[i] if dw else 1.0)
-            dd = curve[i] - target[i]
-            sw += w
-            se += w * dd * dd
-            sp += w * max(0.0, dd - 2.0) ** 2
-        rms = math.sqrt(se / sw)
-        peak = math.sqrt(sp / sw)
+        if bark_edges is not None:
+            # RMS 与峰护栏**同一个积分域**：都取 Bark 带内均值，
+            # 否则等于把两套口径混进一个分数。
+            bm = perceptual.bark_band_means(curve, target, grid, bark_edges)
+            se = sw = sp = 0.0
+            for k, m in bm.items():
+                w = band_w.get(k, 1.0)
+                sw += w
+                se += w * m * m
+                if m > 2.0:
+                    sp += w * (m - 2.0) ** 2
+            rms = math.sqrt(se / sw) if sw > 0 else 0.0
+            peak = math.sqrt(sp / sw) if sw > 0 else 0.0
+        else:
+            sw = se = sp = 0.0
+            for i in range(n):
+                w = W(grid[i]) * (dw[i] if dw else 1.0)
+                dd = curve[i] - target[i]
+                sw += w
+                se += w * dd * dd
+                sp += w * max(0.0, dd - 2.0) ** 2
+            rms = math.sqrt(se / sw)
+            peak = math.sqrt(sp / sw)
         s = 100 - 7.0 * rms - 6.0 * peak
         pf = max(curve[i] for i in range(n) if 5000 <= grid[i] <= 10000)
         if pf > pg:
@@ -205,6 +235,9 @@ def main():
                     help="用音乐能量分布设定频段权重（electronic_general/deep_house/trance/drum_and_bass/bass_music_dubstep）")
     ap.add_argument("--music-trend", default=None,
                     help="用本项目自测的目录档案设权重（见 data/music_trends.json，如 'BA OST'）")
+    ap.add_argument("--bark", action="store_true",
+                    help="积分域改用 Bark 临界频带（默认 1/12 倍频程网格）。"
+                         "实测 50Hz 处后者比前者窄 26 倍，低频误差被过度代表")
     ap.add_argument("--top", type=int, default=20)
     a = ap.parse_args()
 
