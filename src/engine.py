@@ -15,6 +15,8 @@ import os
 import statistics as st
 import sys
 
+import audibility
+
 _SRC = os.path.dirname(os.path.abspath(__file__))
 if _SRC not in sys.path:
     sys.path.insert(0, _SRC)
@@ -207,6 +209,10 @@ def rank(cfg, w_override=None):
             s += 0.6 * max(0.0, 3.0 - math.sqrt(sum((curve[i] - cm[i]) ** 2 for i in range(n)) / n))
         rows.append({"name": name, "score": s, "rms": rms, "pf": pf,
                      "spread": g["spread"], "n_src": len(g["sources"]), "f": g["features_t"],
+                     # 文献阈值的可闻性判定。与 score 并列而不是并入 score：
+                     # score 的系数是手调的、不可验证；可闻性判定有出处、可核对。
+                     # 把可验证的东西藏进不可验证的分数里是本项目最该避免的错。
+                     "aud": audibility.analyse(curve, target, grid),
                      # 曲线与目标一起带出来，供 tier_report 做频率维 bootstrap。
                      # 不让 tier_report 自己重算——那会造出第二套口径，
                      # 分档和得分就对不上了。
@@ -318,6 +324,8 @@ def main():
                          "但这个开关是主观的「常见」判断，不是测量结论，所以不默认开")
     ap.add_argument("--no-tiers", dest="tiers", action="store_false",
                     help="不打印 bootstrap 分档（默认打印）")
+    ap.add_argument("--no-audible", dest="audible", action="store_false",
+                    help="不打印文献阈值的可闻性判定（默认打印）")
     ap.add_argument("--boot", type=int, default=200, help="分档的 bootstrap 次数")
     a = ap.parse_args()
     cfg = vars(a)
@@ -343,6 +351,19 @@ def main():
         print("%-3d %-40s %6.1f %6.1f %+7.1f %s" % (i, r["name"][:40], r["score"], r["rms"], r["pf"], badge(r)))
     if a.tiers:
         tier_report(rows, meta, n=min(a.top, 12), n_boot=a.boot)
+
+    if a.audible:
+        print("\n── 可闻性（文献阈值，不是分数）────────────────────────────")
+        print("判据：1–4kHz 偏差 ≥%.0f dB 才足以让训练听音者在双盲下做出显著区分" % audibility.PREFERENCE_JND_DB)
+        print("      （Olive & Welti, AES 2013；⚠️ 二手源，见 audibility.py 的可信度警告）\n")
+        n_over = sum(1 for r in rows[:a.top] if r["aud"]["pref_band_exceeds"])
+        print("  前 %d 名中，1–4kHz 越过该阈值的：%d 款\n" % (a.top, n_over))
+        for r in rows[:a.top]:
+            au = r["aud"]
+            flag = "越阈" if au["pref_band_exceeds"] else "未越"
+            print("  %-38s 1–4k 最差 %+5.1f dB @%6.0fHz  超阈 %5.1f%%  [%s]"
+                  % (r["name"][:38], au["pref_band_worst_db"],
+                     au["pref_band_worst_hz"] or 0, au["pref_band_pct_over"], flag))
 
     if a.explain:
         for r in [x for x in rows if a.explain.lower() in x["name"].lower()][:3]:
