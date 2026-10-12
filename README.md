@@ -211,6 +211,19 @@ python src/engine.py --like "HD 600" --like "HD 650" --dislike "Edition XS" --ex
 与 §4.35 里"3 dB 低频阈值没有区分力"是同一种自查：先怀疑自己的口径。
 所以这张表**只能当量级参考**，不能当"空间感排行"。
 
+### 4.37 制图（`src/fr_plot.py`）：把"看"也做成有口径的
+
+```bash
+python src/fr_plot.py --models "Sennheiser HD 600,Sennheiser HD 650" --out out/fr.png
+```
+
+- 双面板：上=逐频偏差（多来源取均值），下=7 频段均值画像；
+- 底纹是 **Bark 临界频带**（对数轴等距 ≠ 感知等距，与 §4.36/`perceptual.py` 同口径）；
+- 参考线**只画有出处的**：±6 dB 只在 1–4 kHz 内画，并当场标注"二手、仅此频段"——
+  把 6 dB 平移到别的频段是伪造依据（§4.35 的老规矩）；
+- 分类色用 **OKLCH 等明度等彩度、只转色相**：每条线的视觉权重相同，
+  判读才公平（tab10 的明度参差，深底上有的线看不清）。
+
 ## 4.4 输出自带效力边界（不武断）
 
 引擎**每次输出都先打印一段免责声明 + bootstrap 分档**，不是可选项：
@@ -422,6 +435,7 @@ headphone-lab/
 │   ├── fr_features.py       曲线 → 121 点网格特征
 │   ├── engine.py            目标曲线 + 感知加权 + 跨源置信度 匹配引擎
 │   ├── spatial.py           【空间维度】ILD 不变性 + 线索频段登记 + 来源偏差自查
+│   ├── fr_plot.py           【制图】多型号偏差对比（Bark 带 / 带出处的参考线 / OKLCH 等明度分类色）
 │   ├── music_trend.py       【音乐层】目录级频谱走向测量
 │   ├── music_match.py       【音乐层】候选集 + 敏感性分析 + Borda 共识
 │   ├── mainstream_match.py  【音乐层】**主流可购白名单** × 偏好轴匹配
