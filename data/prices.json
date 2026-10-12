@@ -1,0 +1,18 @@
+{
+  "_note": "仅收录**本次核到来源**的价格；未核到的一律不写（宁缺勿造）。CNY 参考价，随促销/行情波动。",
+  "usd_cny": 7.2,
+  "_used_warning": "闲鱼列表为前端动态渲染、无法直接抓取；二手价只能来自**行情帖/论坛**，且**挂牌价≠成交价**，成色/版本/产地影响极大。以下区间仅作量级参考，下单前请自行在闲鱼按'成交价'核。",
+  "overrides_cny": {
+    "Bose QuietComfort Ultra Headphones": { "cny": 2499, "src": "京东自营页面价（smzdm 2024-06）", "note": "顺电特价约¥1835（2026-03）；无线，已从有线榜剔除" },
+    "HIFIMAN Ananda Nano": { "cny": 1788, "src": "天猫旗舰折后到手价（smzdm 2025-10）", "note": "页面价¥3529" }
+  },
+  "overrides_usd": {
+    "Dan Clark Audio Noire X": { "usd": 1099, "src": "Bloom Audio 标价" },
+    "Dan Clark Audio Stealth": { "usd": 4499, "src": "Bloom Audio 标价" },
+    "Dan Clark Audio EXPANSE": { "usd": 1999, "src": "品牌旗舰定位；**未核到确切页价**", "pending": true }
+  },
+  "used_cny": {
+    "Sennheiser HD 600": { "low": 650, "high": 900, "src": "smzdm 行情帖 2026-07（闲鱼挂牌量暴增，'行情跌至650-900元'）", "note": "停产+停更双因素；2026-07 另一帖称'二手涨到850'" },
+    "Sennheiser HD 650": { "low": 800, "high": 2000, "src": "smzdm 2026-06（'二手平台上 HD650 从几百块到两三千都有'）", "note": "区间极宽：成色/版本（新旧丝网、产地）差异巨大" }
+  }
+}

@@ -1,0 +1,12 @@
+# 原始测量曲线（60 MB / 1448 个 CSV）—— 可用 fetch_fr.py / fetch_squig.py 重新拉取，
+# 不进版本库。派生特征 data/features.json 才是稳定产物，已保留。
+data/fr/
+data/squig_raw/
+
+# 可再生的产物（报告 .md 与主图用 git add -f 单独保留）
+out/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/

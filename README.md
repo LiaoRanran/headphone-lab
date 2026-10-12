@@ -1,0 +1,238 @@
+# headphone-lab · 头戴式耳机实测分析引擎
+
+> 目标：**用 1000+ 条实测频响取代主观转述**，把"推荐/分析"建立在可复算的数据上。
+> 状态：v1.0 · 2026-10-11
+
+---
+
+## 1. 为什么要重建
+
+旧版技能用 7 条 0–5 的主观轴值（评测定性转述，conf 0.4）——扩库到 34 只后出现 **19 只同分并列**。
+证明瓶颈不是"型号太少"，而是**分辨率 + 数据不实**。本项目把这两件事一起换掉。
+
+## 2. 数据层 `data/`
+
+| 项 | 值 |
+| --- | --- |
+| 来源 | **AutoEq**（github.com/jaakkopasanen/AutoEq），定点取原始 CSV |
+| 数量 | **1448 条实测曲线 / 1136 个型号** |
+| 测量来源（7） | Innerfidelity 437 ｜ Rtings 436 ｜ oratory1990 379 ｜ Kuulokenurkka 84 ｜ Filk 47 ｜ kr0mka 35 ｜ HypetheSonics 30 |
+| 口径字段 | 逐条记录 `source` 与 `coupler`（GRAS 43AG-7 / B&K 5128 / HMS II.3 …） |
+| CSV 列 | `frequency, raw, smoothed, error, …, target`（raw=实测；target=该来源目标曲线） |
+| 国产/华系 | 101 条：HiFiMan 69 ｜ Moondrop 7 ｜ Oppo 6 ｜ FiiO 4 ｜ Sivga 4 ｜ AUNE 3 ｜ Sendy 2 ｜ Gold Planar 2 ｜ Takstar 2 ｜ HarmonicDyne 1 ｜ Edifier 1 |
+| 天花板 | AutoEq 主干最后提交 **2025-07-20**；缺 Meze Strada / HiFiMan Edition XV / FiiO FT3·JT1 等 2025H2–2026 新品 |
+
+获取：`python src/fetch_fr.py --sources <逗号分隔> --workers 12`
+
+**踩过的坑（可复用）**
+- `raw.githubusercontent.com` 在本机被阻断；`api.github.com` 可用但**未认证限流 60 次/时**，撑不起批量。
+- **jsDelivr 在批量抓取 1200+ 文件后会被限流**（连原本可用的 URL 也开始返 000）。
+- 目前可用镜像：**`ghproxy.net` / `gh-proxy.com`**（`https://ghproxy.net/https://raw.githubusercontent.com/...`）。已内置多镜像回退。
+- 先取 `results/INDEX.md`（851 KB，含全部型号路径 + 来源 + 人工耳），再定点取 CSV。
+- **crinacle（314 条）只发布 GraphicEQ/PNG、不发布原始曲线**：已验证可安全反推（按 300–3k 均值归一化后取负，与 oratory `error` 在 7 个频点上 5 点同号、2 个分歧点均在 0 附近）→ 待补入。
+
+## 2.1 第二数据源：squig.link（**持续更新**，`src/fetch_squig.py`）
+
+AutoEq 主干停在 2025-07；要覆盖 2025H2–2026 新品，必须接第二个源。
+
+| 项 | 值 |
+| --- | --- |
+| 索引 | `https://<site>.squig.link/data/phone_book.json` |
+| 曲线 | `https://<site>.squig.link/data/<stem> L.txt`（**按声道/次数分文件**，规则源自 `graphtool.js` 的 `fileName+" "+s+n`） |
+| 可访问子站 | kuulokenurkka ｜ listener ｜ vsg ｜ precog ｜ jaytiss ｜ hbb ｜ kr0mka ｜ dhrme（主站 squig.link 根 = superreview，**全为耳塞**） |
+| 已采 | 候选 626 → 下载 **591**（94%）→ 转标准 CSV **475** |
+| 新增能力 | **ZMF Atrium / Caldera（含耳垫变体）、HiFiMan Arya Unveiled、Ananda Nano、Arya Organic、Abyss AB-1266 Phi TC、Audeze LCD-R** —— AutoEq 里完全没有 |
+
+**两条硬约束（不粉饰）**
+1. 品牌过滤仍有噪声：混入 TWS/无线/EQ 变体约 102 条，需二次清洗。
+2. squig **不提供目标曲线** → 这批以「人群基线」为参考（`basis=population`），与 AutoEq 的 Harman 基准（`devt`）**不可直接混排**，必须先用 §5 的目标曲线对齐。
+
+## 3. 特征层 `src/fr_features.py` → `data/features.json`
+
+1. 统一网格：**1/12 倍频程，20 Hz–20 kHz，121 点**（跨来源可比）。
+2. 每条曲线**自身归一化**（300–3 kHz 均值 = 0），消除绝对电平差。
+3. **数据驱动参考基线** = 全体曲线在该网格上的**中位数**（不编造 target；基线由数据集自定义，可审计）。
+4. 偏差 `dev(f) = 曲线 − 基线`，全部特征由 dev 派生：
+
+| 特征 | 定义 | 用途 |
+| --- | --- | --- |
+| `sub_bass / bass / low_mid / mid / presence / treble / air` | 各频段 dev 均值 | 音色骨架 |
+| `tilt_1k_10k` | 1–10 kHz dev 对 log2(f) 的回归斜率 (dB/oct) | 亮/暗 |
+| `peak_5_10k_db / _hz` | 5–10 kHz 最大正偏差及频率 | **齿音/疲劳** |
+| `sub_extension_db` | 20–40 Hz 相对 60–200 Hz | 下潜 |
+| `roughness` | dev 一阶差分绝对均值 | 粗糙/共振 |
+
+## 4. 匹配层 `src/engine.py`
+
+- **目标曲线**：给了「喜欢」锚点 → 目标 = 锚点均值形状 + delta（用你的耳朵定基线）；否则人群基线 + delta。
+- **感知加权**：频段重要性 ×（有锚点时）**判别权重**——喜欢与讨厌样本差异越大处权重越高。
+- **不对称峰惩罚**：`max(0, d−2)²` + 5–10 kHz 峰护栏（"别刺"）。
+- **跨来源一致性 = 置信度**：同型号多来源曲线的平均离散度；≤1.5 dB 记"一致"，否则"分歧"。
+
+用法：
+```bash
+python src/engine.py --bass 3 --presence 2 --treble 1.5 --peak-guard 5 --top 20
+python src/engine.py --like "HD 600" --like "HD 650" --dislike "Edition XS" --explain "Edition XS"
+```
+
+## 4.5 音乐层 `src/music_trend.py` + `src/music_match.py`
+
+回答「**我这些曲库适合什么耳机**」——把"听什么"变成可复算的输入，而不是靠形容词。
+
+**测量**（`music_trend.py`）：按目录抽样（跨子目录铺开取中位曲）→ 全采样率 Welch PSD → 7 段线性功率占比 + 100Hz–10kHz 倾斜。
+- **为什么不复用 `music_profile.py`**：它把文件解码成 22.05kHz，奈奎斯特只有 11kHz，`6–16k` 与 `16–20k` 两段**必然测错**（恒为空）。必须全采样率。
+- 口径与 trackscore.ai 已发布档案一致，可外部对照。
+- `--replot` 用已存 JSON 重绘，不必重新解码。
+
+**匹配**（`music_match.py`）：音乐测量同时决定两件事——
+1. **权重**（哪里重要）：能量集中的频段权重更高（经 `alpha=0.5` 压缩 + `floor` 抬底；不平滑会把权重全喂给低频）。
+2. **目标方向**（要不要补）：低频目标**扫 −4/−2/0/+2 dB 四档**，而不是选一个数字当真理——「该抵消多少」取决于听音音量与偏好，**测量推不出来**。
+3. 聚合用 **Borda 名次共识**（不同参数下 RMS 绝对值不可比，名次可比），并在**去掉音乐加权**的对照组上再验一遍；只有两种加权都靠前的型号才算稳健。
+
+```bash
+python src/music_trend.py                    # 测量 → data/music_trends.json + out/music/trends.png
+python src/music_trend.py --replot           # 只重绘图
+python src/music_match.py                    # 24 次排名 + 共识 → data/music_match.json
+python src/drive_need.py                     # L2：由阻抗/灵敏度推「推到 110/120dB 需多少 mW/V/mA」
+python src/engine.py --music-trend "BA OST"  # 单目录交互式查询
+```
+
+**主流可购白名单**（`mainstream_match.py`）：AutoEq/squig 的曲线库天然偏向发烧友与小众型号，
+**不做这一步会把「有实测」误当成「买得到/认得出」**（第一版候选集就踩了这个坑：DCA、Warwick 静电、
+已停产的 Oppo PM3 排在前列）。做法是显式白名单（国内渠道常见 + 讨论度高），宁少勿滥；
+排名池从 849 收到 86。**这是方法论上的必修项，不是可选优化。**
+
+**「低频有要求」不是一维**，拆成三个可测量：`sub_bass`(20–60Hz 下钻多深)、
+`sub_extension`(20–40Hz 相对 60–200Hz，真延伸)、`low_mid`(200–500Hz，糊的来源)。
+理想形状是 sub/sub_ext 高、bass 中高、low_mid 低——三项全拉满是闷不是弹。
+（实测结论：主流池里 `sub_extension` 为正的只有 4 个，见 `out/低频需求_主流候选_*.md`。）
+
+**驱动门槛**（`drive_need.py`）：本层唯一能"算"的部分，也是跨厂商比较最容易出错的地方——
+森海标 dB/V、DCA/Focal 标 dB/mW，**不换算就并排比会得出相反结论**。统一公式 `dB/V = dB/mW − 10·log₁₀(Z) + 30`。
+低阻平板的瓶颈常是**电流**而非电压（实测：DCA EXPANSE 需 98.7mA、E3 需 60.9mA），很多 dongle 标称"能推 300Ω"说的是电压能力。
+
+## 4.10 排名的统计严谨性（`src/stats.py`）—— 本项最重要的发现
+
+引擎此前输出「87.3 vs 86.6」却不说明这个差是否可信，**那是伪精度**。
+
+### 做法：频率维 bootstrap
+把 121 个频点当样本、有放回重采样，按同一公式重算得分，重复 300 次 → 分的 95% CI。
+CI **只**覆盖频谱形状的测量不确定性；**不含**单元个体差异、人工耳传递函数差异、
+批次/耳垫差异（那些需要多只样本的数据，本项目没有）。这一点在输出里如实标注。
+
+### 实测结论（Harman 基准、delta 全 0、min_sources=2）
+
+| # | 型号 | 得分 | 95% CI | SE |
+|---|---|---|---|---|
+| 1 | Dan Clark Audio EXPANSE | 88.38 | 85.78 – 91.13 | 1.44 |
+| 2 | Oppo PM3 | 84.74 | 81.78 – 87.10 | 1.29 |
+| 3 | Austrian Audio Hi-X60 | 84.55 | 82.30 – 87.38 | 1.36 |
+| 4 | Focal Hadenys | 83.68 | 79.50 – 88.87 | 2.51 |
+| 5 | Bowers & Wilkins P7 | 83.64 | 79.08 – 88.04 | 2.27 |
+| … | … | … | … | … |
+
+**前 14 名全部落在同一档（CI 跨度 76.8–91.1）。相邻名次 13 处 CI 全部重叠，
+连 #1 与 #2 都不可区分。** 分差 0.05–3.6 分，而 SE 是 1.0–3.7 分。
+
+### 这对结论意味着什么（纠正性的）
+
+1. **按排行榜下单等于按噪声下单。** 分差 < ~5 分的名次差异不可解读。
+2. 本项目此前若干"推荐第一名"的表述**过度解读了噪声**，此处更正。
+3. **可区分的信息在具体轴上，不在聚合分里**：`sub_extension`（主流池只有 4 款为正）、
+   `low_mid`（糊的来源）、驱动门槛、价格——这些轴的差异远大于 SE，
+   所以 Focal Azurys 的推荐依据始终是「sub_ext +1.9 是主流池唯一显著正值」，
+   而不是聚合分排名。这条结论不受本轮影响。
+4. 方法论里"前两名分差 < 6 要求一起试听"的规则**应该升级为**：
+   输出**档**而不是排名，同档内必须靠具体轴 + 试听决定。
+
+### 复算
+```bash
+python src/stats.py --top 14 --boot 300      # 带 CI 的排名 + 分档
+```
+
+---
+
+## 4.9 感知权重：ISO 226 等响曲线（`src/psycho.py` + `src/weight_sensitivity.py`）
+
+`base_weight()` 现在是 **ISO 226:2003 等响曲线 + floor**，不再是手调常数。
+
+**系数表与公式**（可引用的一手来源，见 `src/psycho.py` docstring）：
+
+    A_f = 4.47e-3 · (10^(0.025·L_N) − 1.15) + (0.4 · 10^((T_f + L_u)/10 − 9))^α_f
+    L_F = (10/α_f) · log10(A_f) − L_u + 94
+
+自校验（`tests/test_psycho.py`，12 个用例）：
+- **恒等式**：f = 1000 Hz 时必须给出 L_F = L_N（"方"的定义）——全 phon 档验证，
+  同时验证公式形式与四张系数表没抄错；
+- 绝对值：40 方 @ 20Hz≈99.9 / 100Hz≈64.4 / 4kHz≈36.7 / 10kHz≈54.3 dB，
+  80 方 @ 10kHz≈92 dB，听阈 @ 4kHz≈−8.5 dB，均与公布值吻合。
+
+### 关键发现：floor 才是关键参数，不是 phon 档
+
+**为什么不能直接用等响敏感度当权重**——实测（`src/weight_sensitivity.py`）：
+
+| 权重方案 | Spearman | 前 10 重叠 |
+| --- | --- | --- |
+| 历史手调权重 | 1.000 | 10 |
+| **ISO 226 floor=0.30（现默认）** | **0.967** | **7** |
+| ISO 226 floor=0.15 | 0.951 | 5 |
+| 全平坦 w=1 | 0.945 | 8 |
+| ISO 226 floor=0.05（纯敏感度） | 0.918 | **4** |
+| ISO 226 40 方 | 0.841 | 2 |
+
+floor=0.05（纯敏感度）会把**游戏耳麦 Sennheiser PC38X 顶到第一名**——
+因为 20 Hz 与 >10 kHz 的权重被压到接近 0，"只有中频好"的耳机于是占便宜。
+
+根因：**纯音敏感度 ≠ 宽带谱差的显著性**。等响曲线说 20 Hz 在 80 方时敏感度
+仅 ~1e-4，直接当权重等于完全忽略超低频；但音乐少了超低频你**听得出来**（声音变薄）。
+floor 就是"谱差在任何频段都可闻"的下限。
+
+floor=0.30 的取值依据：与历史手调权重的形状最接近（前 10 重合 7/10），
+而手调值是多年听音验证过的、不是拍的。**改这个值前先跑
+`python src/weight_sensitivity.py` 看排名稳定性。**
+
+顺带：闭式解在其范围下端（phon→0 时 `10^(0.025·L_N) − 1.15` 变负）精度下降，
+实测 phon=0 时偏差 0.01 dB。这是 ISO 226 闭式解的已知局限，测试容差已按 0.05 dB 设。
+
+## 5. 已知局限（诚实清单）
+1. **没有价格/规格**：AutoEq 只有曲线 → 本项目是"音色层"，预算/驱动/佩戴仍需外部数据（旧技能 `market_catalog.json`）。
+2. **参考基线 ≠ 中性目标**：数据集中位数反映的是"人群平均形状"（含大量消费级），不等于 Harman/DF 目标。
+3. **锚点少 = 易过拟合**：只给 1–2 个锚点时，模型退化成"找更像它的"，外推能力弱；要外推需配 delta。
+4. **口径未完全对齐**：oratory1990 / Rtings / Innerfidelity 的人工耳不同，跨来源一致性只能当**相对**参考。
+5. **单条 FR 推不出**：声场 / 隔音 / 佩戴 / 失真——需 L-AUX（单元·腔体）或其它测量。
+6. **阈值（`tilt` 权重、`peak-guard`、扣分系数）未校准**——仍是启发式，改动前先跑 `tests/`。
+7. **音乐层只覆盖频响维度**：声场/结像/瞬态/大音量失真/佩戴/隔音，本层一律说不出。曲库画像能推出的是"哪段该准确、哪段别叠加"，推不出"哪只更好听"。
+8. **音乐加权会把权重压在低频**：本库 20–250Hz 占 49–70% 能量，加权后低频权重大约是高频段的 5 倍 → 排序被低频准确性主导，**2–6kHz 人声区的相对权重被低估**。这是为什么必须同时看"不加权重"的对照组。
+9. **目录平均值混合不同母带**：同一目录里可能同时有 320K MP3、cue+wav、96kHz FLAC（BA OST 即是），"目录画像"是混合产物。
+10. **"用耳机补音乐"本身有争议**：本层的默认立场是忠实地重放，因此倾向于不叠加；主张"搭配（加亮度）"的路线在 2–6kHz 上会得出不同结论。分歧已写进输出报告，未替用户取舍。
+
+## 6. 目录
+
+```
+headphone-lab/
+├── data/          # features.json（特征）, music_trends.json（曲库画像）,
+│                  # music_match.json（候选与共识）, prices.json,
+│                  # fr/<source>/*.csv（AutoEq）, squig_csv/*.csv（squig.link）
+├── src/
+│   ├── fetch_fr.py          从 AutoEq 批量拉实测曲线
+│   ├── fetch_squig.py       从 squig.link 子站采集（第二数据源）
+│   ├── squig_to_csv.py      squig 原始文本 → 标准 CSV
+│   ├── fr_features.py       曲线 → 121 点网格特征
+│   ├── engine.py            目标曲线 + 感知加权 + 跨源置信度 匹配引擎
+│   ├── music_trend.py       【音乐层】目录级频谱走向测量
+│   ├── music_match.py       【音乐层】候选集 + 敏感性分析 + Borda 共识
+│   ├── mainstream_match.py  【音乐层】**主流可购白名单** × 偏好轴匹配
+│   ├── weight_sensitivity.py 【引擎层】感知权重的敏感性分析
+│   ├── drive_need.py        【音乐层】L2 驱动门槛推导
+│   ├── patch_catalog_official.py  官方规格回填市场档案
+│   └── tier_report.py / validate_consensus.py / filters.py
+├── tests/         # test_lab.py（回归，钉住引擎行为）
+├── out/           # 报告与图表（含 out/music/trends.png）
+└── README.md
+```
+
+## 7. 与技能的关系
+
+技能（`~/.codebuddy/skills/headphone-advisor`）负责**流程与证据分级**（L1–L6 / S0–S4 / 三态）；
+本项目提供**实测数据与客观特征**，取代技能里 conf 0.4 的定性轴值。
+两者合并的下一步见 `docs/NEXT.md`。

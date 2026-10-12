@@ -1,0 +1,591 @@
+{"site": "dhrme", "stem": "BD Am100 ANC EQNeu L", "brand_hint": "BD Am100 ANC EQNeu", "txt": "data\\squig_raw\\dhrme\\BD Am100 ANC EQNeu L.txt"}
+{"site": "dhrme", "stem": "BD Am100 ANC EQOff L", "brand_hint": "BD Am100 ANC EQOff", "txt": "data\\squig_raw\\dhrme\\BD Am100 ANC EQOff L.txt"}
+{"site": "dhrme", "stem": "BD Am100 Norm EQOff L", "brand_hint": "BD Am100 Norm EQOff", "txt": "data\\squig_raw\\dhrme\\BD Am100 Norm EQOff L.txt"}
+{"site": "dhrme", "stem": "BD Am300 ANC EQNeu L", "brand_hint": "BD Am300 ANC EQNeu", "txt": "data\\squig_raw\\dhrme\\BD Am300 ANC EQNeu L.txt"}
+{"site": "dhrme", "stem": "BD Am300 Norm EQOff L", "brand_hint": "BD Am300 Norm EQOff", "txt": "data\\squig_raw\\dhrme\\BD Am300 Norm EQOff L.txt"}
+{"site": "dhrme", "stem": "BW Pi8 ANC L", "brand_hint": "BW Pi8 ANC", "txt": "data\\squig_raw\\dhrme\\BW Pi8 ANC L.txt"}
+{"site": "dhrme", "stem": "DPP Stock L", "brand_hint": "DPP Stock", "txt": "data\\squig_raw\\dhrme\\DPP Stock L.txt"}
+{"site": "dhrme", "stem": "IE200 L", "brand_hint": "IE200", "txt": "data\\squig_raw\\dhrme\\IE200 L.txt"}
+{"site": "dhrme", "stem": "MD Robin Clsc ANC L", "brand_hint": "MD Robin Clsc ANC", "txt": "data\\squig_raw\\dhrme\\MD Robin Clsc ANC L.txt"}
+{"site": "dhrme", "stem": "MD Robin Mtr ANC L", "brand_hint": "MD Robin Mtr ANC", "txt": "data\\squig_raw\\dhrme\\MD Robin Mtr ANC L.txt"}
+{"site": "dhrme", "stem": "MD Robin Std ANC R", "brand_hint": "MD Robin Std ANC", "txt": "data\\squig_raw\\dhrme\\MD Robin Std ANC R.txt"}
+{"site": "dhrme", "stem": "MD Robin Std Norm L", "brand_hint": "MD Robin Std Norm", "txt": "data\\squig_raw\\dhrme\\MD Robin Std Norm L.txt"}
+{"site": "dhrme", "stem": "MD Robin UBass ANC R", "brand_hint": "MD Robin UBass ANC", "txt": "data\\squig_raw\\dhrme\\MD Robin UBass ANC R.txt"}
+{"site": "dhrme", "stem": "MD ST ANC Bas R", "brand_hint": "MD ST ANC Bas", "txt": "data\\squig_raw\\dhrme\\MD ST ANC Bas R.txt"}
+{"site": "dhrme", "stem": "MD ST ANC Mon L", "brand_hint": "MD ST ANC Mon", "txt": "data\\squig_raw\\dhrme\\MD ST ANC Mon L.txt"}
+{"site": "dhrme", "stem": "MD ST ANC Ref L", "brand_hint": "MD ST ANC Ref", "txt": "data\\squig_raw\\dhrme\\MD ST ANC Ref L.txt"}
+{"site": "dhrme", "stem": "MD ST Norm Bas L", "brand_hint": "MD ST Norm Bas", "txt": "data\\squig_raw\\dhrme\\MD ST Norm Bas L.txt"}
+{"site": "dhrme", "stem": "MD ST Norm Mon L", "brand_hint": "MD ST Norm Mon", "txt": "data\\squig_raw\\dhrme\\MD ST Norm Mon L.txt"}
+{"site": "dhrme", "stem": "MD ST Norm Ref L", "brand_hint": "MD ST Norm Ref", "txt": "data\\squig_raw\\dhrme\\MD ST Norm Ref L.txt"}
+{"site": "dhrme", "stem": "MD x CrinDusk 3.5 L", "brand_hint": "MD x CrinDusk 3.5", "txt": "data\\squig_raw\\dhrme\\MD x CrinDusk 3.5 L.txt"}
+{"site": "dhrme", "stem": "MD x CrinDusk Bass R", "brand_hint": "MD x CrinDusk Bass", "txt": "data\\squig_raw\\dhrme\\MD x CrinDusk Bass R.txt"}
+{"site": "dhrme", "stem": "MD x CrinDusk Hrmn L", "brand_hint": "MD x CrinDusk Hrmn", "txt": "data\\squig_raw\\dhrme\\MD x CrinDusk Hrmn L.txt"}
+{"site": "dhrme", "stem": "MD x CrinDusk USB Def L", "brand_hint": "MD x CrinDusk USB Def", "txt": "data\\squig_raw\\dhrme\\MD x CrinDusk USB Def L.txt"}
+{"site": "dhrme", "stem": "MD x CrinDusk V L", "brand_hint": "MD x CrinDusk V", "txt": "data\\squig_raw\\dhrme\\MD x CrinDusk V L.txt"}
+{"site": "dhrme", "stem": "MDGA Basshead ANC L", "brand_hint": "MDGA Basshead ANC", "txt": "data\\squig_raw\\dhrme\\MDGA Basshead ANC L.txt"}
+{"site": "dhrme", "stem": "MDGA Basshead Norm L", "brand_hint": "MDGA Basshead Norm", "txt": "data\\squig_raw\\dhrme\\MDGA Basshead Norm L.txt"}
+{"site": "dhrme", "stem": "MDGA Monitor ANC L", "brand_hint": "MDGA Monitor ANC", "txt": "data\\squig_raw\\dhrme\\MDGA Monitor ANC L.txt"}
+{"site": "dhrme", "stem": "MDGA Monitor Norm L", "brand_hint": "MDGA Monitor Norm", "txt": "data\\squig_raw\\dhrme\\MDGA Monitor Norm L.txt"}
+{"site": "dhrme", "stem": "MDGA Reference ANC L", "brand_hint": "MDGA Reference ANC", "txt": "data\\squig_raw\\dhrme\\MDGA Reference ANC L.txt"}
+{"site": "dhrme", "stem": "MDGA Reference Norm L", "brand_hint": "MDGA Reference Norm", "txt": "data\\squig_raw\\dhrme\\MDGA Reference Norm L.txt"}
+{"site": "dhrme", "stem": "MDST2 Bass+ANC L", "brand_hint": "MDST2 Bass+ANC", "txt": "data\\squig_raw\\dhrme\\MDST2 Bass+ANC L.txt"}
+{"site": "dhrme", "stem": "MDST2 Bass+Norm L", "brand_hint": "MDST2 Bass+Norm", "txt": "data\\squig_raw\\dhrme\\MDST2 Bass+Norm L.txt"}
+{"site": "dhrme", "stem": "MDST2 Ref-ANC L", "brand_hint": "MDST2 Ref-ANC", "txt": "data\\squig_raw\\dhrme\\MDST2 Ref-ANC L.txt"}
+{"site": "dhrme", "stem": "Momentum TWS3 ANCOff L", "brand_hint": "Momentum TWS3 ANCOff", "txt": "data\\squig_raw\\dhrme\\Momentum TWS3 ANCOff L.txt"}
+{"site": "dhrme", "stem": "Momentum TWS3 ANCOn L", "brand_hint": "Momentum TWS3 ANCOn", "txt": "data\\squig_raw\\dhrme\\Momentum TWS3 ANCOn L.txt"}
+{"site": "dhrme", "stem": "Moondrop Pudding ANC L", "brand_hint": "Moondrop Pudding ANC", "txt": "data\\squig_raw\\dhrme\\Moondrop Pudding ANC L.txt"}
+{"site": "dhrme", "stem": "Moondrop Pudding Norm L", "brand_hint": "Moondrop Pudding Norm", "txt": "data\\squig_raw\\dhrme\\Moondrop Pudding Norm L.txt"}
+{"site": "dhrme", "stem": "Pi7S2 ANCOff L", "brand_hint": "Pi7S2 ANCOff", "txt": "data\\squig_raw\\dhrme\\Pi7S2 ANCOff L.txt"}
+{"site": "dhrme", "stem": "Pi7S2 ANCOn L", "brand_hint": "Pi7S2 ANCOn", "txt": "data\\squig_raw\\dhrme\\Pi7S2 ANCOn L.txt"}
+{"site": "dhrme", "stem": "SMTW5 ANC Neutral BB R", "brand_hint": "SMTW5 ANC Neutral BB", "txt": "data\\squig_raw\\dhrme\\SMTW5 ANC Neutral BB R.txt"}
+{"site": "dhrme", "stem": "SMTW5 ANC Neutral R", "brand_hint": "SMTW5 ANC Neutral", "txt": "data\\squig_raw\\dhrme\\SMTW5 ANC Neutral R.txt"}
+{"site": "dhrme", "stem": "SMTW5 Norm Neutral L", "brand_hint": "SMTW5 Norm Neutral", "txt": "data\\squig_raw\\dhrme\\SMTW5 Norm Neutral L.txt"}
+{"site": "dhrme", "stem": "Senn CXPlus ANC L", "brand_hint": "Senn CXPlus ANC", "txt": "data\\squig_raw\\dhrme\\Senn CXPlus ANC L.txt"}
+{"site": "dhrme", "stem": "Senn CXPlus Norm L", "brand_hint": "Senn CXPlus Norm", "txt": "data\\squig_raw\\dhrme\\Senn CXPlus Norm L.txt"}
+{"site": "dhrme", "stem": "SennAccTWS ANC R", "brand_hint": "SennAccTWS ANC", "txt": "data\\squig_raw\\dhrme\\SennAccTWS ANC R.txt"}
+{"site": "dhrme", "stem": "SennAccTWS Norm L", "brand_hint": "SennAccTWS Norm", "txt": "data\\squig_raw\\dhrme\\SennAccTWS Norm L.txt"}
+{"site": "dhrme", "stem": "SennMTW4 ANCOff noEQ L", "brand_hint": "SennMTW4 ANCOff noEQ", "txt": "data\\squig_raw\\dhrme\\SennMTW4 ANCOff noEQ L.txt"}
+{"site": "dhrme", "stem": "SennMTW4 ANCOn noEQ L", "brand_hint": "SennMTW4 ANCOn noEQ", "txt": "data\\squig_raw\\dhrme\\SennMTW4 ANCOn noEQ L.txt"}
+{"site": "dhrme", "stem": "Svanar ANC L", "brand_hint": "Svanar ANC", "txt": "data\\squig_raw\\dhrme\\Svanar ANC L.txt"}
+{"site": "dhrme", "stem": "Svanar Hifi L", "brand_hint": "Svanar Hifi", "txt": "data\\squig_raw\\dhrme\\Svanar Hifi L.txt"}
+{"site": "hbb", "stem": "AKG 371 R", "brand_hint": "AKG 371", "txt": "data\\squig_raw\\hbb\\AKG 371 R.txt"}
+{"site": "hbb", "stem": "Audio Technica 330xbt R", "brand_hint": "Audio Technica 330xbt", "txt": "data\\squig_raw\\hbb\\Audio Technica 330xbt R.txt"}
+{"site": "hbb", "stem": "Beyerdynamic DT30ie R", "brand_hint": "Beyerdynamic DT30ie", "txt": "data\\squig_raw\\hbb\\Beyerdynamic DT30ie R.txt"}
+{"site": "hbb", "stem": "Dsp Bass R", "brand_hint": "Dsp Bass", "txt": "data\\squig_raw\\hbb\\Dsp Bass R.txt"}
+{"site": "hbb", "stem": "Dsp Dif Tilt R", "brand_hint": "Dsp Dif Tilt", "txt": "data\\squig_raw\\hbb\\Dsp Dif Tilt R.txt"}
+{"site": "hbb", "stem": "Dsp Harmy R", "brand_hint": "Dsp Harmy", "txt": "data\\squig_raw\\hbb\\Dsp Harmy R.txt"}
+{"site": "hbb", "stem": "Dsp Vv R", "brand_hint": "Dsp Vv", "txt": "data\\squig_raw\\hbb\\Dsp Vv R.txt"}
+{"site": "hbb", "stem": "Harm Baroque R", "brand_hint": "Harm Baroque", "txt": "data\\squig_raw\\hbb\\Harm Baroque R.txt"}
+{"site": "hbb", "stem": "Harmonicdyne Athena Raw R", "brand_hint": "Harmonicdyne Athena Raw", "txt": "data\\squig_raw\\hbb\\Harmonicdyne Athena Raw R.txt"}
+{"site": "hbb", "stem": "Harmonicdyne Devil R", "brand_hint": "Harmonicdyne Devil", "txt": "data\\squig_raw\\hbb\\Harmonicdyne Devil R.txt"}
+{"site": "hbb", "stem": "Harmonicdyne New R", "brand_hint": "Harmonicdyne New", "txt": "data\\squig_raw\\hbb\\Harmonicdyne New R.txt"}
+{"site": "hbb", "stem": "Harzu R", "brand_hint": "Harzu", "txt": "data\\squig_raw\\hbb\\Harzu R.txt"}
+{"site": "hbb", "stem": "Hifiman Arya Stealth R", "brand_hint": "Hifiman Arya Stealth", "txt": "data\\squig_raw\\hbb\\Hifiman Arya Stealth R.txt"}
+{"site": "hbb", "stem": "Hifiman HE400se R", "brand_hint": "Hifiman HE400se", "txt": "data\\squig_raw\\hbb\\Hifiman HE400se R.txt"}
+{"site": "hbb", "stem": "Hifiman HEseV2 R", "brand_hint": "Hifiman HEseV2", "txt": "data\\squig_raw\\hbb\\Hifiman HEseV2 R.txt"}
+{"site": "hbb", "stem": "Moon Be R", "brand_hint": "Moon Be", "txt": "data\\squig_raw\\hbb\\Moon Be R.txt"}
+{"site": "hbb", "stem": "Moon Chu 3 R", "brand_hint": "Moon Chu 3", "txt": "data\\squig_raw\\hbb\\Moon Chu 3 R.txt"}
+{"site": "hbb", "stem": "Moon Dusk 2 L R", "brand_hint": "Moon Dusk 2 L", "txt": "data\\squig_raw\\hbb\\Moon Dusk 2 L R.txt"}
+{"site": "hbb", "stem": "Moon Dusk 2 R R", "brand_hint": "Moon Dusk 2 R", "txt": "data\\squig_raw\\hbb\\Moon Dusk 2 R R.txt"}
+{"site": "hbb", "stem": "Moondrop Alice TWS R", "brand_hint": "Moondrop Alice TWS", "txt": "data\\squig_raw\\hbb\\Moondrop Alice TWS R.txt"}
+{"site": "hbb", "stem": "Moondrop Aria R", "brand_hint": "Moondrop Aria", "txt": "data\\squig_raw\\hbb\\Moondrop Aria R.txt"}
+{"site": "hbb", "stem": "Moondrop Aria Snow R", "brand_hint": "Moondrop Aria Snow", "txt": "data\\squig_raw\\hbb\\Moondrop Aria Snow R.txt"}
+{"site": "hbb", "stem": "Moondrop Blessing 3 R", "brand_hint": "Moondrop Blessing 3", "txt": "data\\squig_raw\\hbb\\Moondrop Blessing 3 R.txt"}
+{"site": "hbb", "stem": "Moondrop Chu 3 R", "brand_hint": "Moondrop Chu 3", "txt": "data\\squig_raw\\hbb\\Moondrop Chu 3 R.txt"}
+{"site": "hbb", "stem": "Moondrop Dusk R", "brand_hint": "Moondrop Dusk", "txt": "data\\squig_raw\\hbb\\Moondrop Dusk R.txt"}
+{"site": "hbb", "stem": "Moondrop Illumination R", "brand_hint": "Moondrop Illumination", "txt": "data\\squig_raw\\hbb\\Moondrop Illumination R.txt"}
+{"site": "hbb", "stem": "Moondrop KATO R", "brand_hint": "Moondrop KATO", "txt": "data\\squig_raw\\hbb\\Moondrop KATO R.txt"}
+{"site": "hbb", "stem": "Moondrop Quarks Dsp R", "brand_hint": "Moondrop Quarks Dsp", "txt": "data\\squig_raw\\hbb\\Moondrop Quarks Dsp R.txt"}
+{"site": "hbb", "stem": "Moondrop Solis 2 R", "brand_hint": "Moondrop Solis 2", "txt": "data\\squig_raw\\hbb\\Moondrop Solis 2 R.txt"}
+{"site": "hbb", "stem": "Moondrop Starfield R", "brand_hint": "Moondrop Starfield", "txt": "data\\squig_raw\\hbb\\Moondrop Starfield R.txt"}
+{"site": "hbb", "stem": "Moondrop Stellaris Fo R", "brand_hint": "Moondrop Stellaris Fo", "txt": "data\\squig_raw\\hbb\\Moondrop Stellaris Fo R.txt"}
+{"site": "hbb", "stem": "Moondrop Stellaris Sil R", "brand_hint": "Moondrop Stellaris Sil", "txt": "data\\squig_raw\\hbb\\Moondrop Stellaris Sil R.txt"}
+{"site": "hbb", "stem": "Moondrop X Tago R", "brand_hint": "Moondrop X Tago", "txt": "data\\squig_raw\\hbb\\Moondrop X Tago R.txt"}
+{"site": "hbb", "stem": "Moondrop ssr R", "brand_hint": "Moondrop ssr", "txt": "data\\squig_raw\\hbb\\Moondrop ssr R.txt"}
+{"site": "hbb", "stem": "Sendy Peacock R", "brand_hint": "Sendy Peacock", "txt": "data\\squig_raw\\hbb\\Sendy Peacock R.txt"}
+{"site": "hbb", "stem": "Sennheiser IE600 R", "brand_hint": "Sennheiser IE600", "txt": "data\\squig_raw\\hbb\\Sennheiser IE600 R.txt"}
+{"site": "hbb", "stem": "Sennheiser IE900 R", "brand_hint": "Sennheiser IE900", "txt": "data\\squig_raw\\hbb\\Sennheiser IE900 R.txt"}
+{"site": "hbb", "stem": "Sennheiser IE900 Regular Foams R", "brand_hint": "Sennheiser IE900 Regular Foams", "txt": "data\\squig_raw\\hbb\\Sennheiser IE900 Regular Foams R.txt"}
+{"site": "hbb", "stem": "Sennheiser ie200 R", "brand_hint": "Sennheiser ie200", "txt": "data\\squig_raw\\hbb\\Sennheiser ie200 R.txt"}
+{"site": "hbb", "stem": "T20 Mod1 R", "brand_hint": "T20 Mod1", "txt": "data\\squig_raw\\hbb\\T20 Mod1 R.txt"}
+{"site": "hbb", "stem": "T20 Raw R", "brand_hint": "T20 Raw", "txt": "data\\squig_raw\\hbb\\T20 Raw R.txt"}
+{"site": "hbb", "stem": "T50RP MKIII R", "brand_hint": "T50RP MKIII", "txt": "data\\squig_raw\\hbb\\T50RP MKIII R.txt"}
+{"site": "jaytiss", "stem": "Aria 2 L", "brand_hint": "Aria 2", "txt": "data\\squig_raw\\jaytiss\\Aria 2 L.txt"}
+{"site": "jaytiss", "stem": "Aria R", "brand_hint": "Aria", "txt": "data\\squig_raw\\jaytiss\\Aria R.txt"}
+{"site": "jaytiss", "stem": "Blessing 3 L", "brand_hint": "Blessing 3", "txt": "data\\squig_raw\\jaytiss\\Blessing 3 L.txt"}
+{"site": "jaytiss", "stem": "Blessing3Aqua L", "brand_hint": "Blessing3Aqua", "txt": "data\\squig_raw\\jaytiss\\Blessing3Aqua L.txt"}
+{"site": "jaytiss", "stem": "Concerto L", "brand_hint": "Concerto", "txt": "data\\squig_raw\\jaytiss\\Concerto L.txt"}
+{"site": "jaytiss", "stem": "Crinacle Silicon L", "brand_hint": "Crinacle Silicon", "txt": "data\\squig_raw\\jaytiss\\Crinacle Silicon L.txt"}
+{"site": "jaytiss", "stem": "DUSKDSP R", "brand_hint": "DUSKDSP", "txt": "data\\squig_raw\\jaytiss\\DUSKDSP R.txt"}
+{"site": "jaytiss", "stem": "Dark Saber L", "brand_hint": "Dark Saber", "txt": "data\\squig_raw\\jaytiss\\Dark Saber L.txt"}
+{"site": "jaytiss", "stem": "Dusk2 L", "brand_hint": "Dusk2", "txt": "data\\squig_raw\\jaytiss\\Dusk2 L.txt"}
+{"site": "jaytiss", "stem": "IE 200 L", "brand_hint": "IE 200", "txt": "data\\squig_raw\\jaytiss\\IE 200 L.txt"}
+{"site": "jaytiss", "stem": "IE 600 L", "brand_hint": "IE 600", "txt": "data\\squig_raw\\jaytiss\\IE 600 L.txt"}
+{"site": "jaytiss", "stem": "ILLUMINATION R", "brand_hint": "ILLUMINATION", "txt": "data\\squig_raw\\jaytiss\\ILLUMINATION R.txt"}
+{"site": "jaytiss", "stem": "Kadenz R", "brand_hint": "Kadenz", "txt": "data\\squig_raw\\jaytiss\\Kadenz R.txt"}
+{"site": "jaytiss", "stem": "Lan L", "brand_hint": "Lan", "txt": "data\\squig_raw\\jaytiss\\Lan L.txt"}
+{"site": "jaytiss", "stem": "May L", "brand_hint": "May", "txt": "data\\squig_raw\\jaytiss\\May L.txt"}
+{"site": "jaytiss", "stem": "Meze AudioAlba R", "brand_hint": "Meze AudioAlba", "txt": "data\\squig_raw\\jaytiss\\Meze AudioAlba R.txt"}
+{"site": "jaytiss", "stem": "MoonMeteor L", "brand_hint": "MoonMeteor", "txt": "data\\squig_raw\\jaytiss\\MoonMeteor L.txt"}
+{"site": "jaytiss", "stem": "MoonMeteor50 L", "brand_hint": "MoonMeteor50", "txt": "data\\squig_raw\\jaytiss\\MoonMeteor50 L.txt"}
+{"site": "jaytiss", "stem": "Moondrop Starfield II R", "brand_hint": "Moondrop Starfield II", "txt": "data\\squig_raw\\jaytiss\\Moondrop Starfield II R.txt"}
+{"site": "jaytiss", "stem": "Moondrop Surface L", "brand_hint": "Moondrop Surface", "txt": "data\\squig_raw\\jaytiss\\Moondrop Surface L.txt"}
+{"site": "jaytiss", "stem": "MoondropHarmon L", "brand_hint": "MoondropHarmon", "txt": "data\\squig_raw\\jaytiss\\MoondropHarmon L.txt"}
+{"site": "jaytiss", "stem": "MoondropPSYCHE L", "brand_hint": "MoondropPSYCHE", "txt": "data\\squig_raw\\jaytiss\\MoondropPSYCHE L.txt"}
+{"site": "jaytiss", "stem": "MoondropPSYCHE220 L", "brand_hint": "MoondropPSYCHE220", "txt": "data\\squig_raw\\jaytiss\\MoondropPSYCHE220 L.txt"}
+{"site": "jaytiss", "stem": "MoondropPSYCHE25 L", "brand_hint": "MoondropPSYCHE25", "txt": "data\\squig_raw\\jaytiss\\MoondropPSYCHE25 L.txt"}
+{"site": "jaytiss", "stem": "MoondropPSYCHE50 R", "brand_hint": "MoondropPSYCHE50", "txt": "data\\squig_raw\\jaytiss\\MoondropPSYCHE50 R.txt"}
+{"site": "jaytiss", "stem": "Que L", "brand_hint": "Que", "txt": "data\\squig_raw\\jaytiss\\Que L.txt"}
+{"site": "jaytiss", "stem": "Sivga260 L", "brand_hint": "Sivga260", "txt": "data\\squig_raw\\jaytiss\\Sivga260 L.txt"}
+{"site": "jaytiss", "stem": "SivgaLyrebird L", "brand_hint": "SivgaLyrebird", "txt": "data\\squig_raw\\jaytiss\\SivgaLyrebird L.txt"}
+{"site": "jaytiss", "stem": "SivgaSM100 L", "brand_hint": "SivgaSM100", "txt": "data\\squig_raw\\jaytiss\\SivgaSM100 L.txt"}
+{"site": "jaytiss", "stem": "Stellaris L", "brand_hint": "Stellaris", "txt": "data\\squig_raw\\jaytiss\\Stellaris L.txt"}
+{"site": "jaytiss", "stem": "Variations L", "brand_hint": "Variations", "txt": "data\\squig_raw\\jaytiss\\Variations L.txt"}
+{"site": "kr0mka", "stem": "Aria L", "brand_hint": "Aria", "txt": "data\\squig_raw\\kr0mka\\Aria L.txt"}
+{"site": "kr0mka", "stem": "Chu L", "brand_hint": "Chu", "txt": "data\\squig_raw\\kr0mka\\Chu L.txt"}
+{"site": "kr0mka", "stem": "Dusk R", "brand_hint": "Dusk", "txt": "data\\squig_raw\\kr0mka\\Dusk R.txt"}
+{"site": "kr0mka", "stem": "EDC3 L", "brand_hint": "EDC3", "txt": "data\\squig_raw\\kr0mka\\EDC3 L.txt"}
+{"site": "kr0mka", "stem": "KXXS (BGVP W01) L", "brand_hint": "KXXS (BGVP W01)", "txt": "data\\squig_raw\\kr0mka\\KXXS (BGVP W01) L.txt"}
+{"site": "kr0mka", "stem": "KXXS (CP 100) L", "brand_hint": "KXXS (CP 100)", "txt": "data\\squig_raw\\kr0mka\\KXXS (CP 100) L.txt"}
+{"site": "kr0mka", "stem": "KXXS (EP-EX11) L", "brand_hint": "KXXS (EP-EX11)", "txt": "data\\squig_raw\\kr0mka\\KXXS (EP-EX11) L.txt"}
+{"site": "kr0mka", "stem": "KXXS (EX15) L", "brand_hint": "KXXS (EX15)", "txt": "data\\squig_raw\\kr0mka\\KXXS (EX15) L.txt"}
+{"site": "kr0mka", "stem": "KXXS (Symbio W Peel) R", "brand_hint": "KXXS (Symbio W Peel)", "txt": "data\\squig_raw\\kr0mka\\KXXS (Symbio W Peel) R.txt"}
+{"site": "kr0mka", "stem": "KXXS L", "brand_hint": "KXXS", "txt": "data\\squig_raw\\kr0mka\\KXXS L.txt"}
+{"site": "kr0mka", "stem": "KXXS spring L", "brand_hint": "KXXS spring", "txt": "data\\squig_raw\\kr0mka\\KXXS spring L.txt"}
+{"site": "kr0mka", "stem": "LAN L", "brand_hint": "LAN", "txt": "data\\squig_raw\\kr0mka\\LAN L.txt"}
+{"site": "kr0mka", "stem": "Sparks Balanced 1.2.1 L", "brand_hint": "Sparks Balanced 1.2.1", "txt": "data\\squig_raw\\kr0mka\\Sparks Balanced 1.2.1 L.txt"}
+{"site": "kr0mka", "stem": "Sparks Basshead 1.2.1 L", "brand_hint": "Sparks Basshead 1.2.1", "txt": "data\\squig_raw\\kr0mka\\Sparks Basshead 1.2.1 L.txt"}
+{"site": "kr0mka", "stem": "Sparks David Xu 1.2.1 L", "brand_hint": "Sparks David Xu 1.2.1", "txt": "data\\squig_raw\\kr0mka\\Sparks David Xu 1.2.1 L.txt"}
+{"site": "kr0mka", "stem": "Sparks No bass 1.2.1 L", "brand_hint": "Sparks No bass 1.2.1", "txt": "data\\squig_raw\\kr0mka\\Sparks No bass 1.2.1 L.txt"}
+{"site": "kr0mka", "stem": "Sparks Studio 1.2.1 L", "brand_hint": "Sparks Studio 1.2.1", "txt": "data\\squig_raw\\kr0mka\\Sparks Studio 1.2.1 L.txt"}
+{"site": "kr0mka", "stem": "TAE1105 L", "brand_hint": "TAE1105", "txt": "data\\squig_raw\\kr0mka\\TAE1105 L.txt"}
+{"site": "kr0mka", "stem": "ga 5128 target R", "brand_hint": "ga 5128 target", "txt": "data\\squig_raw\\kr0mka\\ga 5128 target R.txt"}
+{"site": "kr0mka", "stem": "ga monitor L", "brand_hint": "ga monitor", "txt": "data\\squig_raw\\kr0mka\\ga monitor L.txt"}
+{"site": "kr0mka", "stem": "ga reference L", "brand_hint": "ga reference", "txt": "data\\squig_raw\\kr0mka\\ga reference L.txt"}
+{"site": "kr0mka", "stem": "ga secret target L", "brand_hint": "ga secret target", "txt": "data\\squig_raw\\kr0mka\\ga secret target L.txt"}
+{"site": "kr0mka", "stem": "may 3.5 L", "brand_hint": "may 3.5", "txt": "data\\squig_raw\\kr0mka\\may 3.5 L.txt"}
+{"site": "kr0mka", "stem": "may basshead L", "brand_hint": "may basshead", "txt": "data\\squig_raw\\kr0mka\\may basshead L.txt"}
+{"site": "kr0mka", "stem": "may harman style R", "brand_hint": "may harman style", "txt": "data\\squig_raw\\kr0mka\\may harman style R.txt"}
+{"site": "kr0mka", "stem": "may no bass L", "brand_hint": "may no bass", "txt": "data\\squig_raw\\kr0mka\\may no bass L.txt"}
+{"site": "kr0mka", "stem": "may reference L", "brand_hint": "may reference", "txt": "data\\squig_raw\\kr0mka\\may reference L.txt"}
+{"site": "kr0mka", "stem": "may standard R", "brand_hint": "may standard", "txt": "data\\squig_raw\\kr0mka\\may standard R.txt"}
+{"site": "kr0mka", "stem": "n5005 foam L", "brand_hint": "n5005 foam", "txt": "data\\squig_raw\\kr0mka\\n5005 foam L.txt"}
+{"site": "kr0mka", "stem": "space travel basshead R", "brand_hint": "space travel basshead", "txt": "data\\squig_raw\\kr0mka\\space travel basshead R.txt"}
+{"site": "kr0mka", "stem": "space travel monitor L", "brand_hint": "space travel monitor", "txt": "data\\squig_raw\\kr0mka\\space travel monitor L.txt"}
+{"site": "kr0mka", "stem": "space travel reference L", "brand_hint": "space travel reference", "txt": "data\\squig_raw\\kr0mka\\space travel reference L.txt"}
+{"site": "kr0mka", "stem": "spacetravel s2 L", "brand_hint": "spacetravel s2", "txt": "data\\squig_raw\\kr0mka\\spacetravel s2 L.txt"}
+{"site": "kuulokenurkka", "stem": "105 Aer (Sample 2) ** L", "brand_hint": "105 Aer (Sample 2) **", "txt": "data\\squig_raw\\kuulokenurkka\\105 Aer (Sample 2) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "105 Aer ** L", "brand_hint": "105 Aer **", "txt": "data\\squig_raw\\kuulokenurkka\\105 Aer _ L.txt"}
+{"site": "kuulokenurkka", "stem": "109 Pro (ZMF Titanium Solid Mesh) L", "brand_hint": "109 Pro (ZMF Titanium Solid Mesh)", "txt": "data\\squig_raw\\kuulokenurkka\\109 Pro (ZMF Titanium Solid Mesh) L.txt"}
+{"site": "kuulokenurkka", "stem": "109 Pro ** L", "brand_hint": "109 Pro **", "txt": "data\\squig_raw\\kuulokenurkka\\109 Pro _ L.txt"}
+{"site": "kuulokenurkka", "stem": "109 Pro L", "brand_hint": "109 Pro", "txt": "data\\squig_raw\\kuulokenurkka\\109 Pro L.txt"}
+{"site": "kuulokenurkka", "stem": "99 Classics ** L", "brand_hint": "99 Classics **", "txt": "data\\squig_raw\\kuulokenurkka\\99 Classics _ L.txt"}
+{"site": "kuulokenurkka", "stem": "AB-1266 Phi (Air Gap) L", "brand_hint": "AB-1266 Phi (Air Gap)", "txt": "data\\squig_raw\\kuulokenurkka\\AB-1266 Phi (Air Gap) L.txt"}
+{"site": "kuulokenurkka", "stem": "AB-1266 Phi (Big Air Gap) L", "brand_hint": "AB-1266 Phi (Big Air Gap)", "txt": "data\\squig_raw\\kuulokenurkka\\AB-1266 Phi (Big Air Gap) L.txt"}
+{"site": "kuulokenurkka", "stem": "AB-1266 Phi (Good Seal) L", "brand_hint": "AB-1266 Phi (Good Seal)", "txt": "data\\squig_raw\\kuulokenurkka\\AB-1266 Phi (Good Seal) L.txt"}
+{"site": "kuulokenurkka", "stem": "AB1266 Phi TC (Big Air Gap) ** L", "brand_hint": "AB1266 Phi TC (Big Air Gap) **", "txt": "data\\squig_raw\\kuulokenurkka\\AB1266 Phi TC (Big Air Gap) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "AB1266 Phi TC (Good Seal) ** L", "brand_hint": "AB1266 Phi TC (Good Seal) **", "txt": "data\\squig_raw\\kuulokenurkka\\AB1266 Phi TC (Good Seal) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "AB1266 Phi TC (Small Air Gap) ** L", "brand_hint": "AB1266 Phi TC (Small Air Gap) **", "txt": "data\\squig_raw\\kuulokenurkka\\AB1266 Phi TC (Small Air Gap) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "AH-D5200 ** L", "brand_hint": "AH-D5200 **", "txt": "data\\squig_raw\\kuulokenurkka\\AH-D5200 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "AH-D9200 ** L", "brand_hint": "AH-D9200 **", "txt": "data\\squig_raw\\kuulokenurkka\\AH-D9200 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "AH-D9200 L", "brand_hint": "AH-D9200", "txt": "data\\squig_raw\\kuulokenurkka\\AH-D9200 L.txt"}
+{"site": "kuulokenurkka", "stem": "AR5000 ** L", "brand_hint": "AR5000 **", "txt": "data\\squig_raw\\kuulokenurkka\\AR5000 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "ATH-ADX7000 (Alcantara Pads) ** L", "brand_hint": "ATH-ADX7000 (Alcantara Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\ATH-ADX7000 (Alcantara Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "ATH-ADX7000 (Velvet Pads) ** L", "brand_hint": "ATH-ADX7000 (Velvet Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\ATH-ADX7000 (Velvet Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "ATH-HL7BT ** L", "brand_hint": "ATH-HL7BT **", "txt": "data\\squig_raw\\kuulokenurkka\\ATH-HL7BT _ L.txt"}
+{"site": "kuulokenurkka", "stem": "ATH-M50X ** L", "brand_hint": "ATH-M50X **", "txt": "data\\squig_raw\\kuulokenurkka\\ATH-M50X _ L.txt"}
+{"site": "kuulokenurkka", "stem": "ATH-R70x L", "brand_hint": "ATH-R70x", "txt": "data\\squig_raw\\kuulokenurkka\\ATH-R70x L.txt"}
+{"site": "kuulokenurkka", "stem": "Aeolus (BE2 Perf Suede Pads) ** L", "brand_hint": "Aeolus (BE2 Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aeolus (BE2 Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aeolus (Universe Perf Leather Pads) ** R", "brand_hint": "Aeolus (Universe Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aeolus (Universe Perf Leather Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Aeolus (Universe Perf Suede Pads) ** R", "brand_hint": "Aeolus (Universe Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aeolus (Universe Perf Suede Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Ananda ** L", "brand_hint": "Ananda **", "txt": "data\\squig_raw\\kuulokenurkka\\Ananda _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Ananda Nano ** L", "brand_hint": "Ananda Nano **", "txt": "data\\squig_raw\\kuulokenurkka\\Ananda Nano _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Argon mk3 (ZMF Oval Pleather Pads) L", "brand_hint": "Argon mk3 (ZMF Oval Pleather Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Argon mk3 (ZMF Oval Pleather Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Arya Organic ** L", "brand_hint": "Arya Organic **", "txt": "data\\squig_raw\\kuulokenurkka\\Arya Organic _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Arya Unveiled ** L", "brand_hint": "Arya Unveiled **", "txt": "data\\squig_raw\\kuulokenurkka\\Arya Unveiled _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Atrium (Auteur Perf Leather Pads) ** L", "brand_hint": "Atrium (Auteur Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Atrium (Auteur Perf Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Atrium (BE2 Perf Suede Pads) ** L", "brand_hint": "Atrium (BE2 Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Atrium (BE2 Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Atrium (Caldera Suede Ultra Perf Pads) ** L", "brand_hint": "Atrium (Caldera Suede Ultra Perf Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Atrium (Caldera Suede Ultra Perf Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Atrium (Universe Perf Leather Pads) ** L", "brand_hint": "Atrium (Universe Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Atrium (Universe Perf Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Atrium (Universe Perf Suede Pads) ** L", "brand_hint": "Atrium (Universe Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Atrium (Universe Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Atticus (Eikon Suede Pads) L", "brand_hint": "Atticus (Eikon Suede Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Atticus (Eikon Suede Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Atticus (Ori Leather Pads) L", "brand_hint": "Atticus (Ori Leather Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Atticus (Ori Leather Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur (Auteur Perf Hybrid Pads) ** L", "brand_hint": "Auteur (Auteur Perf Hybrid Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur (Auteur Perf Hybrid Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur (Auteur Perf Leather Pads) ** R", "brand_hint": "Auteur (Auteur Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur (Auteur Perf Leather Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur (Auteur Perf Suede Pads) ** L", "brand_hint": "Auteur (Auteur Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur (Auteur Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur (Eikon Perf Leather Pads) ** R", "brand_hint": "Auteur (Eikon Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur (Eikon Perf Leather Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur (Eikon Perf Suede Pads) ** L", "brand_hint": "Auteur (Eikon Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur (Eikon Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur (Universe Perf Leather Pads) ** L", "brand_hint": "Auteur (Universe Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur (Universe Perf Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur (Universe Perf Suede Pads) ** R", "brand_hint": "Auteur (Universe Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur (Universe Perf Suede Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (Auteur Perf Hybrid Pads) ** L", "brand_hint": "Auteur Classic (Auteur Perf Hybrid Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (Auteur Perf Hybrid Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (Auteur Perf Leather Pads) ** L", "brand_hint": "Auteur Classic (Auteur Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (Auteur Perf Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (Auteur Perf Suede Pads) ** L", "brand_hint": "Auteur Classic (Auteur Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (Auteur Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (BE2 Perf Suede Pads) ** L", "brand_hint": "Auteur Classic (BE2 Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (BE2 Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (Eikon Perf Leather Pads) ** L", "brand_hint": "Auteur Classic (Eikon Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (Eikon Perf Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (Eikon Perf Suede Pads) ** L", "brand_hint": "Auteur Classic (Eikon Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (Eikon Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (Universe Perf Leather Pads) ** R", "brand_hint": "Auteur Classic (Universe Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (Universe Perf Leather Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Auteur Classic (Universe Perf Suede Pads) ** L", "brand_hint": "Auteur Classic (Universe Perf Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Auteur Classic (Universe Perf Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 100 (ANC OFF) ** L", "brand_hint": "Aventho 100 (ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 100 (ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 100 (ANC ON) ** L", "brand_hint": "Aventho 100 (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 100 (ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 100 (Passive) ** L", "brand_hint": "Aventho 100 (Passive) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 100 (Passive) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 300 (ANC OFF) ** L", "brand_hint": "Aventho 300 (ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 300 (ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 300 (ANC ON & Neutral Preset) ** L", "brand_hint": "Aventho 300 (ANC ON & Neutral Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 300 (ANC ON _ Neutral Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 300 (ANC ON & Smooth Preset) ** L", "brand_hint": "Aventho 300 (ANC ON & Smooth Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 300 (ANC ON _ Smooth Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 300 (ANC ON) ** L", "brand_hint": "Aventho 300 (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 300 (ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Aventho 300 (Passive) ** L", "brand_hint": "Aventho 300 (Passive) **", "txt": "data\\squig_raw\\kuulokenurkka\\Aventho 300 (Passive) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Azurys ** L", "brand_hint": "Azurys **", "txt": "data\\squig_raw\\kuulokenurkka\\Azurys _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bathys (Dynamic Preset) ** L", "brand_hint": "Bathys (Dynamic Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bathys (Dynamic Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bathys ** L", "brand_hint": "Bathys **", "txt": "data\\squig_raw\\kuulokenurkka\\Bathys _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bathys MG (Dynamic Preset) ** L", "brand_hint": "Bathys MG (Dynamic Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bathys MG (Dynamic Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bathys MG ** L", "brand_hint": "Bathys MG **", "txt": "data\\squig_raw\\kuulokenurkka\\Bathys MG _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Hybrid Pads & Burst Mesh) ** L", "brand_hint": "Bokeh (Hybrid Pads & Burst Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Hybrid Pads _ Burst Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Hybrid Pads & No Mesh) ** R", "brand_hint": "Bokeh (Hybrid Pads & No Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Hybrid Pads _ No Mesh) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Hybrid Pads & Solid Mesh) ** L", "brand_hint": "Bokeh (Hybrid Pads & Solid Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Hybrid Pads _ Solid Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Protein Pads & Burst Mesh) ** L", "brand_hint": "Bokeh (Protein Pads & Burst Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Protein Pads _ Burst Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Protein Pads & No Mesh) ** L", "brand_hint": "Bokeh (Protein Pads & No Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Protein Pads _ No Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Protein Pads & Solid Mesh) ** L", "brand_hint": "Bokeh (Protein Pads & Solid Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Protein Pads _ Solid Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Suede Pads & Burst Mesh) ** L", "brand_hint": "Bokeh (Suede Pads & Burst Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Suede Pads _ Burst Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh (Suede Pads & No Mesh) ** L", "brand_hint": "Bokeh (Suede Pads & No Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh (Suede Pads _ No Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh Open (Hybrid Pads & Bopp Solid Mesh from 2020 & Adapter Rings) ** L", "brand_hint": "Bokeh Open (Hybrid Pads & Bopp Solid Mesh from 2020 & Adapter Rings) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh Open (Hybrid Pads _ Bopp Solid Mesh from 2020 _ Adapter Rings) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh Open (Hybrid Pads & Bopp Solid Mesh from 2020) ** R", "brand_hint": "Bokeh Open (Hybrid Pads & Bopp Solid Mesh from 2020) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh Open (Hybrid Pads _ Bopp Solid Mesh from 2020) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh Open (Hybrid Pads & Vented Mesh & Adapter Rings) ** R", "brand_hint": "Bokeh Open (Hybrid Pads & Vented Mesh & Adapter Rings) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh Open (Hybrid Pads _ Vented Mesh _ Adapter Rings) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh Open (Hybrid Pads & Vented Mesh) ** L", "brand_hint": "Bokeh Open (Hybrid Pads & Vented Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh Open (Hybrid Pads _ Vented Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Bokeh Open (Perforated Universe Suede Pads) ** L", "brand_hint": "Bokeh Open (Perforated Universe Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Bokeh Open (Perforated Universe Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Cowhide Pads) ** L", "brand_hint": "Caldera (Cowhide Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Cowhide Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Cowhide Pads) Sample 2 ** L", "brand_hint": "Caldera (Cowhide Pads) Sample 2 **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Cowhide Pads) Sample 2 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Lambskin Pads) ** L", "brand_hint": "Caldera (Lambskin Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Lambskin Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Lambskin Pads) Sample 2 ** L", "brand_hint": "Caldera (Lambskin Pads) Sample 2 **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Lambskin Pads) Sample 2 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Suede Pads) ** L", "brand_hint": "Caldera (Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Suede Pads) Sample 2 ** R", "brand_hint": "Caldera (Suede Pads) Sample 2 **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Suede Pads) Sample 2 _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Thick Pads) ** R", "brand_hint": "Caldera (Thick Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Thick Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Caldera (Thick Pads) Sample 2 ** R", "brand_hint": "Caldera (Thick Pads) Sample 2 **", "txt": "data\\squig_raw\\kuulokenurkka\\Caldera (Thick Pads) Sample 2 _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Clear MG ** L", "brand_hint": "Clear MG **", "txt": "data\\squig_raw\\kuulokenurkka\\Clear MG _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 700 Pro X (DT 770 Pro X Driver with Stock Foam & Pad) ** L", "brand_hint": "DT 700 Pro X (DT 770 Pro X Driver with Stock Foam & Pad) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 700 Pro X (DT 770 Pro X Driver with Stock Foam _ Pad) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 700 Pro X ** L", "brand_hint": "DT 700 Pro X **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 700 Pro X _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro (32 ohm - Beyer Pleather Pads) ** L", "brand_hint": "DT 770 Pro (32 ohm - Beyer Pleather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro (32 ohm - Beyer Pleather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro (80 ohm) ** L", "brand_hint": "DT 770 Pro (80 ohm) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro (80 ohm) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro X Limited Edition (DT 700 Pro X Driver & Foam & Pad) ** L", "brand_hint": "DT 770 Pro X Limited Edition (DT 700 Pro X Driver & Foam & Pad) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro X Limited Edition (DT 700 Pro X Driver _ Foam _ Pad) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro X Limited Edition (DT 700 Pro X Driver & Foam with Stock Pad) ** L", "brand_hint": "DT 770 Pro X Limited Edition (DT 700 Pro X Driver & Foam with Stock Pad) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro X Limited Edition (DT 700 Pro X Driver _ Foam with Stock Pad) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro X Limited Edition (DT 700 Pro X Foam) ** R", "brand_hint": "DT 770 Pro X Limited Edition (DT 700 Pro X Foam) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro X Limited Edition (DT 700 Pro X Foam) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro X Limited Edition (DT 700 Pro X Pads) ** L", "brand_hint": "DT 770 Pro X Limited Edition (DT 700 Pro X Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro X Limited Edition (DT 700 Pro X Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro X Limited Edition (Paper mod & bass port 75 percent closed) ** L", "brand_hint": "DT 770 Pro X Limited Edition (Paper mod & bass port 75 percent closed) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro X Limited Edition (Paper mod _ bass port 75 percent closed) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro X Limited Edition (Paper mod) ** L", "brand_hint": "DT 770 Pro X Limited Edition (Paper mod) **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro X Limited Edition (Paper mod) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 770 Pro X Limited Edition ** L", "brand_hint": "DT 770 Pro X Limited Edition **", "txt": "data\\squig_raw\\kuulokenurkka\\DT 770 Pro X Limited Edition _ L.txt"}
+{"site": "kuulokenurkka", "stem": "DT 900 Pro X L", "brand_hint": "DT 900 Pro X", "txt": "data\\squig_raw\\kuulokenurkka\\DT 900 Pro X L.txt"}
+{"site": "kuulokenurkka", "stem": "Deva Pro (Wired) L", "brand_hint": "Deva Pro (Wired)", "txt": "data\\squig_raw\\kuulokenurkka\\Deva Pro (Wired) L.txt"}
+{"site": "kuulokenurkka", "stem": "E3 ** L", "brand_hint": "E3 **", "txt": "data\\squig_raw\\kuulokenurkka\\E3 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Edition XS (Sample 1) L", "brand_hint": "Edition XS (Sample 1)", "txt": "data\\squig_raw\\kuulokenurkka\\Edition XS (Sample 1) L.txt"}
+{"site": "kuulokenurkka", "stem": "Edition XS (Sample 2) L", "brand_hint": "Edition XS (Sample 2)", "txt": "data\\squig_raw\\kuulokenurkka\\Edition XS (Sample 2) L.txt"}
+{"site": "kuulokenurkka", "stem": "Edition XV ** L", "brand_hint": "Edition XV **", "txt": "data\\squig_raw\\kuulokenurkka\\Edition XV _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Eikon (Auteur Leather Pads) ** L", "brand_hint": "Eikon (Auteur Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Eikon (Auteur Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Eikon (Eikon Leather Pads) ** L", "brand_hint": "Eikon (Eikon Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Eikon (Eikon Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Eikon (Eikon Suede Pads) ** L", "brand_hint": "Eikon (Eikon Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Eikon (Eikon Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Eikon (Universe Leather Pads) ** L", "brand_hint": "Eikon (Universe Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Eikon (Universe Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Empyrean (Leather Pads) L", "brand_hint": "Empyrean (Leather Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Empyrean (Leather Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Empyrean (Suede Pads) L", "brand_hint": "Empyrean (Suede Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Empyrean (Suede Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Empyrean 2 (Angled Alcantara Pads) ** L", "brand_hint": "Empyrean 2 (Angled Alcantara Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Empyrean 2 (Angled Alcantara Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Empyrean 2 (Angled Alcantara Pads) Sample 2 ** R", "brand_hint": "Empyrean 2 (Angled Alcantara Pads) Sample 2 **", "txt": "data\\squig_raw\\kuulokenurkka\\Empyrean 2 (Angled Alcantara Pads) Sample 2 _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Empyrean 2 (Duo Pads) ** L", "brand_hint": "Empyrean 2 (Duo Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Empyrean 2 (Duo Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Empyrean 2 (Duo Pads) Sample 2 ** R", "brand_hint": "Empyrean 2 (Duo Pads) Sample 2 **", "txt": "data\\squig_raw\\kuulokenurkka\\Empyrean 2 (Duo Pads) Sample 2 _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Empyrean Elite (Leather Pads) ** L", "brand_hint": "Empyrean Elite (Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Empyrean Elite (Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Game Zero ** L", "brand_hint": "Game Zero **", "txt": "data\\squig_raw\\kuulokenurkka\\Game Zero _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 505 Copper Edition ** R", "brand_hint": "HD 505 Copper Edition **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 505 Copper Edition _ R.txt"}
+{"site": "kuulokenurkka", "stem": "HD 560S ** L", "brand_hint": "HD 560S **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 560S _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 580 Precision L", "brand_hint": "HD 580 Precision", "txt": "data\\squig_raw\\kuulokenurkka\\HD 580 Precision L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 600 (2021 Pads) ** L", "brand_hint": "HD 600 (2021 Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 600 (2021 Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 600 (Soulwit Cooling Gel Pads) ** L", "brand_hint": "HD 600 (Soulwit Cooling Gel Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 600 (Soulwit Cooling Gel Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 600 (ZMF Perf Leather Pads) ** L", "brand_hint": "HD 600 (ZMF Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 600 (ZMF Perf Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 620S ** L", "brand_hint": "HD 620S **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 620S _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 650 (ZMF Perf Leather Pads) L", "brand_hint": "HD 650 (ZMF Perf Leather Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\HD 650 (ZMF Perf Leather Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 660S2 (ZMF Perf Leather Pads) ** L", "brand_hint": "HD 660S2 (ZMF Perf Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 660S2 (ZMF Perf Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 660S2 ** L", "brand_hint": "HD 660S2 **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 660S2 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 6XX L", "brand_hint": "HD 6XX", "txt": "data\\squig_raw\\kuulokenurkka\\HD 6XX L.txt"}
+{"site": "kuulokenurkka", "stem": "HD 800 (SDR Mod) ** R", "brand_hint": "HD 800 (SDR Mod) **", "txt": "data\\squig_raw\\kuulokenurkka\\HD 800 (SDR Mod) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "HDB 630 (ANC OFF) ** L", "brand_hint": "HDB 630 (ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\HDB 630 (ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HDB 630 (ANC ON) ** L", "brand_hint": "HDB 630 (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\HDB 630 (ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-400SE L", "brand_hint": "HE-400SE", "txt": "data\\squig_raw\\kuulokenurkka\\HE-400SE L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-6 (HFM Velour Pads & Grill Mod) ** L", "brand_hint": "HE-6 (HFM Velour Pads & Grill Mod) **", "txt": "data\\squig_raw\\kuulokenurkka\\HE-6 (HFM Velour Pads _ Grill Mod) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-6 (Sample 2: Focus Pads) L", "brand_hint": "HE-6 (Sample 2: Focus Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\HE-6 (Sample 2_ Focus Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-6 (Sample 2: HFM Pleather Pads) L", "brand_hint": "HE-6 (Sample 2: HFM Pleather Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\HE-6 (Sample 2_ HFM Pleather Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-6 (Sample 2: HFM Velour Pads) L", "brand_hint": "HE-6 (Sample 2: HFM Velour Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\HE-6 (Sample 2_ HFM Velour Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-6 (Sundara Pads & Grill Mod) ** L", "brand_hint": "HE-6 (Sundara Pads & Grill Mod) **", "txt": "data\\squig_raw\\kuulokenurkka\\HE-6 (Sundara Pads _ Grill Mod) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-6 (ZMF Hifiman+ Hybrid Pads & Grill Mod) ** L", "brand_hint": "HE-6 (ZMF Hifiman+ Hybrid Pads & Grill Mod) **", "txt": "data\\squig_raw\\kuulokenurkka\\HE-6 (ZMF Hifiman+ Hybrid Pads _ Grill Mod) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-R9 (Sample 1) ** L", "brand_hint": "HE-R9 (Sample 1) **", "txt": "data\\squig_raw\\kuulokenurkka\\HE-R9 (Sample 1) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HE-R9 (Sample 2) L", "brand_hint": "HE-R9 (Sample 2)", "txt": "data\\squig_raw\\kuulokenurkka\\HE-R9 (Sample 2) L.txt"}
+{"site": "kuulokenurkka", "stem": "HE1000 Unveiled ** L", "brand_hint": "HE1000 Unveiled **", "txt": "data\\squig_raw\\kuulokenurkka\\HE1000 Unveiled _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HE1000SE ** L", "brand_hint": "HE1000SE **", "txt": "data\\squig_raw\\kuulokenurkka\\HE1000SE _ L.txt"}
+{"site": "kuulokenurkka", "stem": "HE600 ** L", "brand_hint": "HE600 **", "txt": "data\\squig_raw\\kuulokenurkka\\HE600 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Hadenys ** L", "brand_hint": "Hadenys **", "txt": "data\\squig_raw\\kuulokenurkka\\Hadenys _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Hi-X20 ** L", "brand_hint": "Hi-X20 **", "txt": "data\\squig_raw\\kuulokenurkka\\Hi-X20 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Isvarna (Bass Port 95 Percent Closed) ** L", "brand_hint": "Isvarna (Bass Port 95 Percent Closed) **", "txt": "data\\squig_raw\\kuulokenurkka\\Isvarna (Bass Port 95 Percent Closed) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Isvarna (Bass Port Closed) ** L", "brand_hint": "Isvarna (Bass Port Closed) **", "txt": "data\\squig_raw\\kuulokenurkka\\Isvarna (Bass Port Closed) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Isvarna (Loose Velcro) ** L", "brand_hint": "Isvarna (Loose Velcro) **", "txt": "data\\squig_raw\\kuulokenurkka\\Isvarna (Loose Velcro) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Isvarna ** L", "brand_hint": "Isvarna **", "txt": "data\\squig_raw\\kuulokenurkka\\Isvarna _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Joker ** L", "brand_hint": "Joker **", "txt": "data\\squig_raw\\kuulokenurkka\\Joker _ L.txt"}
+{"site": "kuulokenurkka", "stem": "K361 ** L", "brand_hint": "K361 **", "txt": "data\\squig_raw\\kuulokenurkka\\K361 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "K712 Pro L", "brand_hint": "K712 Pro", "txt": "data\\squig_raw\\kuulokenurkka\\K712 Pro L.txt"}
+{"site": "kuulokenurkka", "stem": "LCD-2 Classic ** L", "brand_hint": "LCD-2 Classic **", "txt": "data\\squig_raw\\kuulokenurkka\\LCD-2 Classic _ L.txt"}
+{"site": "kuulokenurkka", "stem": "LCD-R (Bass Boost ON) ** L", "brand_hint": "LCD-R (Bass Boost ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\LCD-R (Bass Boost ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "LCD-R ** L", "brand_hint": "LCD-R **", "txt": "data\\squig_raw\\kuulokenurkka\\LCD-R _ L.txt"}
+{"site": "kuulokenurkka", "stem": "LCD-X ** L", "brand_hint": "LCD-X **", "txt": "data\\squig_raw\\kuulokenurkka\\LCD-X _ L.txt"}
+{"site": "kuulokenurkka", "stem": "MM-100 ** L", "brand_hint": "MM-100 **", "txt": "data\\squig_raw\\kuulokenurkka\\MM-100 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "MM-500 ** L", "brand_hint": "MM-500 **", "txt": "data\\squig_raw\\kuulokenurkka\\MM-500 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Audeze Preset & Dekoni Sheepskin Pads) ** L", "brand_hint": "Maxwell (Audeze Preset & Dekoni Sheepskin Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Audeze Preset _ Dekoni Sheepskin Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Audeze Preset & Dekoni Velour Pads) ** L", "brand_hint": "Maxwell (Audeze Preset & Dekoni Velour Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Audeze Preset _ Dekoni Velour Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Audeze Preset) ** L", "brand_hint": "Maxwell (Audeze Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Audeze Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Bass Boost Preset) ** L", "brand_hint": "Maxwell (Bass Boost Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Bass Boost Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Competition Preset) ** L", "brand_hint": "Maxwell (Competition Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Competition Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (EQ Baseline: all values at zero dB) ** L", "brand_hint": "Maxwell (EQ Baseline: all values at zero dB) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (EQ Baseline_ all values at zero dB) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Footsteps Preset) ** L", "brand_hint": "Maxwell (Footsteps Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Footsteps Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Immersive Preset) ** L", "brand_hint": "Maxwell (Immersive Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Immersive Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Maxwell (Treble Boost Preset) ** L", "brand_hint": "Maxwell (Treble Boost Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\Maxwell (Treble Boost Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Momentum 3 Wireless (HEST ON) L", "brand_hint": "Momentum 3 Wireless (HEST ON)", "txt": "data\\squig_raw\\kuulokenurkka\\Momentum 3 Wireless (HEST ON) L.txt"}
+{"site": "kuulokenurkka", "stem": "Momentum 4 Wireless (ANC ON) ** R", "brand_hint": "Momentum 4 Wireless (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\Momentum 4 Wireless (ANC ON) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Momentum 4 Wireless (Passive) ** L", "brand_hint": "Momentum 4 Wireless (Passive) **", "txt": "data\\squig_raw\\kuulokenurkka\\Momentum 4 Wireless (Passive) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Momentum 4 Wireless (Review EQ) ** L", "brand_hint": "Momentum 4 Wireless (Review EQ) **", "txt": "data\\squig_raw\\kuulokenurkka\\Momentum 4 Wireless (Review EQ) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "N9 Hybrid (ANC OFF) ** L", "brand_hint": "N9 Hybrid (ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\N9 Hybrid (ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "N9 Hybrid (ANC ON & Studio Preset) ** L", "brand_hint": "N9 Hybrid (ANC ON & Studio Preset) **", "txt": "data\\squig_raw\\kuulokenurkka\\N9 Hybrid (ANC ON _ Studio Preset) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "N9 Hybrid (ANC ON) ** L", "brand_hint": "N9 Hybrid (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\N9 Hybrid (ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "N9 Hybrid (Passive) ** L", "brand_hint": "N9 Hybrid (Passive) **", "txt": "data\\squig_raw\\kuulokenurkka\\N9 Hybrid (Passive) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Noire X ** L", "brand_hint": "Noire X **", "txt": "data\\squig_raw\\kuulokenurkka\\Noire X _ L.txt"}
+{"site": "kuulokenurkka", "stem": "OAE1 Signature ** L", "brand_hint": "OAE1 Signature **", "txt": "data\\squig_raw\\kuulokenurkka\\OAE1 Signature _ L.txt"}
+{"site": "kuulokenurkka", "stem": "POET ** L", "brand_hint": "POET **", "txt": "data\\squig_raw\\kuulokenurkka\\POET _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S2 (ANC ON) L", "brand_hint": "PX7 S2 (ANC ON)", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S2 (ANC ON) L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S2e (ANC OFF) ** L", "brand_hint": "PX7 S2e (ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S2e (ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S2e (ANC ON) ** L", "brand_hint": "PX7 S2e (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S2e (ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S2e (EQ: Treble -1,5 & Bass -2,5) ** L", "brand_hint": "PX7 S2e (EQ: Treble -1,5 & Bass -2,5) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S2e (EQ_ Treble -1_5 _ Bass -2_5) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S3 (ANC OFF) ** L", "brand_hint": "PX7 S3 (ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S3 (ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S3 (ANC ON) ** L", "brand_hint": "PX7 S3 (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S3 (ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S3 Sample 2 (ANC ON | Position 1) ** L", "brand_hint": "PX7 S3 Sample 2 (ANC ON | Position 1) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S3 Sample 2 (ANC ON _ Position 1) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S3 Sample 2 (ANC ON | Position 2) ** L", "brand_hint": "PX7 S3 Sample 2 (ANC ON | Position 2) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S3 Sample 2 (ANC ON _ Position 2) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S3 Sample 2 (ANC ON | Position 3) ** L", "brand_hint": "PX7 S3 Sample 2 (ANC ON | Position 3) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S3 Sample 2 (ANC ON _ Position 3) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX7 S3 Sample 2 (ANC ON | Position 4) ** L", "brand_hint": "PX7 S3 Sample 2 (ANC ON | Position 4) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX7 S3 Sample 2 (ANC ON _ Position 4) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX8 S2 (ANC OFF) ** L", "brand_hint": "PX8 S2 (ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX8 S2 (ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "PX8 S2 (ANC ON) ** L", "brand_hint": "PX8 S2 (ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\PX8 S2 (ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Porta Pro (Fiio Wind Pads) ** L", "brand_hint": "Porta Pro (Fiio Wind Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Porta Pro (Fiio Wind Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Porta Pro (Yaxi Pads) ** L", "brand_hint": "Porta Pro (Yaxi Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Porta Pro (Yaxi Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "S5X ** R", "brand_hint": "S5X **", "txt": "data\\squig_raw\\kuulokenurkka\\S5X _ R.txt"}
+{"site": "kuulokenurkka", "stem": "SR-1a (Ear Contact & OBC OFF) ** R", "brand_hint": "SR-1a (Ear Contact & OBC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-1a (Ear Contact _ OBC OFF) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "SR-1a (Ear Contact & OBC ON) ** L", "brand_hint": "SR-1a (Ear Contact & OBC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-1a (Ear Contact _ OBC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR-1a (No Ear Contact & OBC OFF) ** L", "brand_hint": "SR-1a (No Ear Contact & OBC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-1a (No Ear Contact _ OBC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR-1a (No Ear Contact & OBC ON) ** L", "brand_hint": "SR-1a (No Ear Contact & OBC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-1a (No Ear Contact _ OBC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR-L700 ** L", "brand_hint": "SR-L700 **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-L700 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR-Lambda Spirit (Pad mod: Angled Pleather Pads) ** L", "brand_hint": "SR-Lambda Spirit (Pad mod: Angled Pleather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-Lambda Spirit (Pad mod_ Angled Pleather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR-X1 (Good Seal) ** L", "brand_hint": "SR-X1 (Good Seal) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-X1 (Good Seal) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR-X1 (Weak Seal) ** L", "brand_hint": "SR-X1 (Weak Seal) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-X1 (Weak Seal) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR-Σ (1979) ** L", "brand_hint": "SR-Σ (1979) **", "txt": "data\\squig_raw\\kuulokenurkka\\SR-Σ (1979) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "SR125e L", "brand_hint": "SR125e", "txt": "data\\squig_raw\\kuulokenurkka\\SR125e L.txt"}
+{"site": "kuulokenurkka", "stem": "Stealth ** L", "brand_hint": "Stealth **", "txt": "data\\squig_raw\\kuulokenurkka\\Stealth _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Strada ** L", "brand_hint": "Strada **", "txt": "data\\squig_raw\\kuulokenurkka\\Strada _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Sundara (2020) ** L", "brand_hint": "Sundara (2020) **", "txt": "data\\squig_raw\\kuulokenurkka\\Sundara (2020) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Sundara Closed (Sample 1) L", "brand_hint": "Sundara Closed (Sample 1)", "txt": "data\\squig_raw\\kuulokenurkka\\Sundara Closed (Sample 1) L.txt"}
+{"site": "kuulokenurkka", "stem": "Sundara Closed (Sample 2) L", "brand_hint": "Sundara Closed (Sample 2)", "txt": "data\\squig_raw\\kuulokenurkka\\Sundara Closed (Sample 2) L.txt"}
+{"site": "kuulokenurkka", "stem": "Sundara Closed ** L", "brand_hint": "Sundara Closed **", "txt": "data\\squig_raw\\kuulokenurkka\\Sundara Closed _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Sundara Silver (Sample 1) ** L", "brand_hint": "Sundara Silver (Sample 1) **", "txt": "data\\squig_raw\\kuulokenurkka\\Sundara Silver (Sample 1) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Sundara Silver (Sample 2) ** L", "brand_hint": "Sundara Silver (Sample 2) **", "txt": "data\\squig_raw\\kuulokenurkka\\Sundara Silver (Sample 2) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Sundara Silver (ZMF Hifiman+ Hybrid Pads) ** L", "brand_hint": "Sundara Silver (ZMF Hifiman+ Hybrid Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Sundara Silver (ZMF Hifiman+ Hybrid Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Susvara ** L", "brand_hint": "Susvara **", "txt": "data\\squig_raw\\kuulokenurkka\\Susvara _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Susvara Unveiled ** L", "brand_hint": "Susvara Unveiled **", "txt": "data\\squig_raw\\kuulokenurkka\\Susvara Unveiled _ L.txt"}
+{"site": "kuulokenurkka", "stem": "T60RP Argon (Xenon Suede Pads & Baffle Upgrade) ** L", "brand_hint": "T60RP Argon (Xenon Suede Pads & Baffle Upgrade) **", "txt": "data\\squig_raw\\kuulokenurkka\\T60RP Argon (Xenon Suede Pads _ Baffle Upgrade) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "T60RP Argon (Xenon Suede Pads) ** L", "brand_hint": "T60RP Argon (Xenon Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\T60RP Argon (Xenon Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "TR-X00 Purpleheart ** L", "brand_hint": "TR-X00 Purpleheart **", "txt": "data\\squig_raw\\kuulokenurkka\\TR-X00 Purpleheart _ L.txt"}
+{"site": "kuulokenurkka", "stem": "The Arranger ** L", "brand_hint": "The Arranger **", "txt": "data\\squig_raw\\kuulokenurkka\\The Arranger _ L.txt"}
+{"site": "kuulokenurkka", "stem": "The Composer ** L", "brand_hint": "The Composer **", "txt": "data\\squig_raw\\kuulokenurkka\\The Composer _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Tungsten Single Sided (Hybrid Pads & ZMF Vented Titan Mesh) ** L", "brand_hint": "Tungsten Single Sided (Hybrid Pads & ZMF Vented Titan Mesh) **", "txt": "data\\squig_raw\\kuulokenurkka\\Tungsten Single Sided (Hybrid Pads _ ZMF Vented Titan Mesh) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Tungsten Single Sided (Hybrid Pads) ** L", "brand_hint": "Tungsten Single Sided (Hybrid Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Tungsten Single Sided (Hybrid Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Utopia ** L", "brand_hint": "Utopia **", "txt": "data\\squig_raw\\kuulokenurkka\\Utopia _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Utopia 2022 ** L", "brand_hint": "Utopia 2022 **", "txt": "data\\squig_raw\\kuulokenurkka\\Utopia 2022 _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Venus ** R", "brand_hint": "Venus **", "txt": "data\\squig_raw\\kuulokenurkka\\Venus _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Closed (Auteur Hybrid Pads) ** L", "brand_hint": "Verite Closed (Auteur Hybrid Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Closed (Auteur Hybrid Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Closed (Auteur Leather Pads) ** L", "brand_hint": "Verite Closed (Auteur Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Closed (Auteur Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Closed (Eikon Leather Pads) ** R", "brand_hint": "Verite Closed (Eikon Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Closed (Eikon Leather Pads) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Closed (Eikon Suede Pads) ** L", "brand_hint": "Verite Closed (Eikon Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Closed (Eikon Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Closed (Universe Hybrid Pads) ** L", "brand_hint": "Verite Closed (Universe Hybrid Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Closed (Universe Hybrid Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Closed (Universe Leather Pads) ** L", "brand_hint": "Verite Closed (Universe Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Closed (Universe Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Open (Auteur Perf Hybrid Pads) L", "brand_hint": "Verite Open (Auteur Perf Hybrid Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Open (Auteur Perf Hybrid Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Open (BE2 Perf Hybrid Pads) L", "brand_hint": "Verite Open (BE2 Perf Hybrid Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Open (BE2 Perf Hybrid Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Open (BE2 Perf Leather Pads) L", "brand_hint": "Verite Open (BE2 Perf Leather Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Open (BE2 Perf Leather Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Open (Universe Perf Leather Pads) R", "brand_hint": "Verite Open (Universe Perf Leather Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Open (Universe Perf Leather Pads) R.txt"}
+{"site": "kuulokenurkka", "stem": "Verite Open (Universe Perf Suede Pads) L", "brand_hint": "Verite Open (Universe Perf Suede Pads)", "txt": "data\\squig_raw\\kuulokenurkka\\Verite Open (Universe Perf Suede Pads) L.txt"}
+{"site": "kuulokenurkka", "stem": "X Singer Edge (Admired T301 & ANC ON) ** R", "brand_hint": "X Singer Edge (Admired T301 & ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\X Singer Edge (Admired T301 _ ANC ON) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "X Singer Edge (Classic HD580P & ANC ON) ** R", "brand_hint": "X Singer Edge (Classic HD580P & ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\X Singer Edge (Classic HD580P _ ANC ON) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "X Singer Edge (Inspiring D8000Pro & ANC ON) ** R", "brand_hint": "X Singer Edge (Inspiring D8000Pro & ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\X Singer Edge (Inspiring D8000Pro _ ANC ON) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "X Singer Edge (Legendary R10 & ANC ON) ** R", "brand_hint": "X Singer Edge (Legendary R10 & ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\X Singer Edge (Legendary R10 _ ANC ON) _ R.txt"}
+{"site": "kuulokenurkka", "stem": "X Singer Edge (Standard & ANC OFF) ** L", "brand_hint": "X Singer Edge (Standard & ANC OFF) **", "txt": "data\\squig_raw\\kuulokenurkka\\X Singer Edge (Standard _ ANC OFF) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "X Singer Edge (Standard & ANC ON) ** L", "brand_hint": "X Singer Edge (Standard & ANC ON) **", "txt": "data\\squig_raw\\kuulokenurkka\\X Singer Edge (Standard _ ANC ON) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "YH-5000SE (Leather Pads) ** L", "brand_hint": "YH-5000SE (Leather Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\YH-5000SE (Leather Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "YH-5000SE (Suede Pads) ** L", "brand_hint": "YH-5000SE (Suede Pads) **", "txt": "data\\squig_raw\\kuulokenurkka\\YH-5000SE (Suede Pads) _ L.txt"}
+{"site": "kuulokenurkka", "stem": "YH-C3000 ** L", "brand_hint": "YH-C3000 **", "txt": "data\\squig_raw\\kuulokenurkka\\YH-C3000 _ L.txt"}
+{"site": "listener", "stem": "490Pro L1", "brand_hint": "490Pro", "txt": "data\\squig_raw\\listener\\490Pro L1.txt"}
+{"site": "listener", "stem": "490ProMP L1", "brand_hint": "490ProMP", "txt": "data\\squig_raw\\listener\\490ProMP L1.txt"}
+{"site": "listener", "stem": "AC55 L1", "brand_hint": "AC55", "txt": "data\\squig_raw\\listener\\AC55 L1.txt"}
+{"site": "listener", "stem": "ADX7000 Clamp L1", "brand_hint": "ADX7000 Clamp", "txt": "data\\squig_raw\\listener\\ADX7000 Clamp L1.txt"}
+{"site": "listener", "stem": "ADX7k Velvet L1", "brand_hint": "ADX7k Velvet", "txt": "data\\squig_raw\\listener\\ADX7k Velvet L1.txt"}
+{"site": "listener", "stem": "AKG K240 L1", "brand_hint": "AKG K240", "txt": "data\\squig_raw\\listener\\AKG K240 L1.txt"}
+{"site": "listener", "stem": "AKG K361 L1", "brand_hint": "AKG K361", "txt": "data\\squig_raw\\listener\\AKG K361 L1.txt"}
+{"site": "listener", "stem": "AKG K371 L1", "brand_hint": "AKG K371", "txt": "data\\squig_raw\\listener\\AKG K371 L1.txt"}
+{"site": "listener", "stem": "AKG K52 L1", "brand_hint": "AKG K52", "txt": "data\\squig_raw\\listener\\AKG K52 L1.txt"}
+{"site": "listener", "stem": "Atrium (Kyle) L1", "brand_hint": "Atrium (Kyle)", "txt": "data\\squig_raw\\listener\\Atrium (Kyle) L1.txt"}
+{"site": "listener", "stem": "Audeze LCD-R L1", "brand_hint": "Audeze LCD-R", "txt": "data\\squig_raw\\listener\\Audeze LCD-R L1.txt"}
+{"site": "listener", "stem": "Audeze MM 500 L1", "brand_hint": "Audeze MM 500", "txt": "data\\squig_raw\\listener\\Audeze MM 500 L1.txt"}
+{"site": "listener", "stem": "Audio Technica ATH-M20x L1", "brand_hint": "Audio Technica ATH-M20x", "txt": "data\\squig_raw\\listener\\Audio Technica ATH-M20x L1.txt"}
+{"site": "listener", "stem": "Audio Technica ATH-M40x L1", "brand_hint": "Audio Technica ATH-M40x", "txt": "data\\squig_raw\\listener\\Audio Technica ATH-M40x L1.txt"}
+{"site": "listener", "stem": "Audio Technica ATH-M50x L1", "brand_hint": "Audio Technica ATH-M50x", "txt": "data\\squig_raw\\listener\\Audio Technica ATH-M50x L1.txt"}
+{"site": "listener", "stem": "Austrian Audio Hi-X55 L1", "brand_hint": "Austrian Audio Hi-X55", "txt": "data\\squig_raw\\listener\\Austrian Audio Hi-X55 L1.txt"}
+{"site": "listener", "stem": "Azurys Back L1", "brand_hint": "Azurys Back", "txt": "data\\squig_raw\\listener\\Azurys Back L1.txt"}
+{"site": "listener", "stem": "Azurys L1", "brand_hint": "Azurys", "txt": "data\\squig_raw\\listener\\Azurys L1.txt"}
+{"site": "listener", "stem": "Azurys S2 LPad Strap L1", "brand_hint": "Azurys S2 LPad Strap", "txt": "data\\squig_raw\\listener\\Azurys S2 LPad Strap L1.txt"}
+{"site": "listener", "stem": "Azurys S2 LPad Strapless L1", "brand_hint": "Azurys S2 LPad Strapless", "txt": "data\\squig_raw\\listener\\Azurys S2 LPad Strapless L1.txt"}
+{"site": "listener", "stem": "Azurys S2 Strap L1", "brand_hint": "Azurys S2 Strap", "txt": "data\\squig_raw\\listener\\Azurys S2 Strap L1.txt"}
+{"site": "listener", "stem": "Azurys S2 Strapless L1", "brand_hint": "Azurys S2 Strapless", "txt": "data\\squig_raw\\listener\\Azurys S2 Strapless L1.txt"}
+{"site": "listener", "stem": "Caldera (ThickLamb)(Ishca) L1", "brand_hint": "Caldera (ThickLamb)(Ishca)", "txt": "data\\squig_raw\\listener\\Caldera (ThickLamb)(Ishca) L1.txt"}
+{"site": "listener", "stem": "Cosmo 6.3mm R1", "brand_hint": "Cosmo 6.3mm", "txt": "data\\squig_raw\\listener\\Cosmo 6.3mm R1.txt"}
+{"site": "listener", "stem": "Cosmo Back L1", "brand_hint": "Cosmo Back", "txt": "data\\squig_raw\\listener\\Cosmo Back L1.txt"}
+{"site": "listener", "stem": "Cosmo L1", "brand_hint": "Cosmo", "txt": "data\\squig_raw\\listener\\Cosmo L1.txt"}
+{"site": "listener", "stem": "Cosmo Up R1", "brand_hint": "Cosmo Up", "txt": "data\\squig_raw\\listener\\Cosmo Up R1.txt"}
+{"site": "listener", "stem": "EDGE ANC Off Balanced L1", "brand_hint": "EDGE ANC Off Balanced", "txt": "data\\squig_raw\\listener\\EDGE ANC Off Balanced L1.txt"}
+{"site": "listener", "stem": "EDGE ANC Off Bass L1", "brand_hint": "EDGE ANC Off Bass", "txt": "data\\squig_raw\\listener\\EDGE ANC Off Bass L1.txt"}
+{"site": "listener", "stem": "EDGE ANC Off Country L1", "brand_hint": "EDGE ANC Off Country", "txt": "data\\squig_raw\\listener\\EDGE ANC Off Country L1.txt"}
+{"site": "listener", "stem": "EDGE ANC Off Studio L1", "brand_hint": "EDGE ANC Off Studio", "txt": "data\\squig_raw\\listener\\EDGE ANC Off Studio L1.txt"}
+{"site": "listener", "stem": "EDGE ANC Off Violin L1", "brand_hint": "EDGE ANC Off Violin", "txt": "data\\squig_raw\\listener\\EDGE ANC Off Violin L1.txt"}
+{"site": "listener", "stem": "EDGE ANC On Balanced R1", "brand_hint": "EDGE ANC On Balanced", "txt": "data\\squig_raw\\listener\\EDGE ANC On Balanced R1.txt"}
+{"site": "listener", "stem": "EDGE ANC On Bass L1", "brand_hint": "EDGE ANC On Bass", "txt": "data\\squig_raw\\listener\\EDGE ANC On Bass L1.txt"}
+{"site": "listener", "stem": "EDGE ANC On Country L1", "brand_hint": "EDGE ANC On Country", "txt": "data\\squig_raw\\listener\\EDGE ANC On Country L1.txt"}
+{"site": "listener", "stem": "EDGE ANC On Studio L1", "brand_hint": "EDGE ANC On Studio", "txt": "data\\squig_raw\\listener\\EDGE ANC On Studio L1.txt"}
+{"site": "listener", "stem": "EDGE ANC On Violin L1", "brand_hint": "EDGE ANC On Violin", "txt": "data\\squig_raw\\listener\\EDGE ANC On Violin L1.txt"}
+{"site": "listener", "stem": "Edition XS (Dilupus) R1", "brand_hint": "Edition XS (Dilupus)", "txt": "data\\squig_raw\\listener\\Edition XS (Dilupus) R1.txt"}
+{"site": "listener", "stem": "Edition XS 2 6.3mm L1", "brand_hint": "Edition XS 2 6.3mm", "txt": "data\\squig_raw\\listener\\Edition XS 2 6.3mm L1.txt"}
+{"site": "listener", "stem": "Edition XS 2 Back R1", "brand_hint": "Edition XS 2 Back", "txt": "data\\squig_raw\\listener\\Edition XS 2 Back R1.txt"}
+{"site": "listener", "stem": "Edition XS 2 L1", "brand_hint": "Edition XS 2", "txt": "data\\squig_raw\\listener\\Edition XS 2 L1.txt"}
+{"site": "listener", "stem": "Edition XS 2 Up L1", "brand_hint": "Edition XS 2 Up", "txt": "data\\squig_raw\\listener\\Edition XS 2 Up L1.txt"}
+{"site": "listener", "stem": "Edition XV L1", "brand_hint": "Edition XV", "txt": "data\\squig_raw\\listener\\Edition XV L1.txt"}
+{"site": "listener", "stem": "Elex L1", "brand_hint": "Elex", "txt": "data\\squig_raw\\listener\\Elex L1.txt"}
+{"site": "listener", "stem": "Focal Radiance L1", "brand_hint": "Focal Radiance", "txt": "data\\squig_raw\\listener\\Focal Radiance L1.txt"}
+{"site": "listener", "stem": "HD 480 Pro L1", "brand_hint": "HD 480 Pro", "txt": "data\\squig_raw\\listener\\HD 480 Pro L1.txt"}
+{"site": "listener", "stem": "HD 505 L1", "brand_hint": "HD 505", "txt": "data\\squig_raw\\listener\\HD 505 L1.txt"}
+{"site": "listener", "stem": "HD 550 L1", "brand_hint": "HD 550", "txt": "data\\squig_raw\\listener\\HD 550 L1.txt"}
+{"site": "listener", "stem": "HD 569 L1", "brand_hint": "HD 569", "txt": "data\\squig_raw\\listener\\HD 569 L1.txt"}
+{"site": "listener", "stem": "HD 569 Leak R1", "brand_hint": "HD 569 Leak", "txt": "data\\squig_raw\\listener\\HD 569 Leak R1.txt"}
+{"site": "listener", "stem": "HD 569 More Leak L1", "brand_hint": "HD 569 More Leak", "txt": "data\\squig_raw\\listener\\HD 569 More Leak L1.txt"}
+{"site": "listener", "stem": "HD 620S 6.3mm L1", "brand_hint": "HD 620S 6.3mm", "txt": "data\\squig_raw\\listener\\HD 620S 6.3mm L1.txt"}
+{"site": "listener", "stem": "HD 620S Back L1", "brand_hint": "HD 620S Back", "txt": "data\\squig_raw\\listener\\HD 620S Back L1.txt"}
+{"site": "listener", "stem": "HD 620S Ideal L1", "brand_hint": "HD 620S Ideal", "txt": "data\\squig_raw\\listener\\HD 620S Ideal L1.txt"}
+{"site": "listener", "stem": "HD 620S SD Card L1", "brand_hint": "HD 620S SD Card", "txt": "data\\squig_raw\\listener\\HD 620S SD Card L1.txt"}
+{"site": "listener", "stem": "HD 620S Up L1", "brand_hint": "HD 620S Up", "txt": "data\\squig_raw\\listener\\HD 620S Up L1.txt"}
+{"site": "listener", "stem": "HD 660S2 L1", "brand_hint": "HD 660S2", "txt": "data\\squig_raw\\listener\\HD 660S2 L1.txt"}
+{"site": "listener", "stem": "HD 6XX Stock R1", "brand_hint": "HD 6XX Stock", "txt": "data\\squig_raw\\listener\\HD 6XX Stock R1.txt"}
+{"site": "listener", "stem": "HD580BPFP (Floyd) R1", "brand_hint": "HD580BPFP (Floyd)", "txt": "data\\squig_raw\\listener\\HD580BPFP (Floyd) R1.txt"}
+{"site": "listener", "stem": "HD580BS (Floyd) R1", "brand_hint": "HD580BS (Floyd)", "txt": "data\\squig_raw\\listener\\HD580BS (Floyd) R1.txt"}
+{"site": "listener", "stem": "HD580BS (Kyle) R1", "brand_hint": "HD580BS (Kyle)", "txt": "data\\squig_raw\\listener\\HD580BS (Kyle) R1.txt"}
+{"site": "listener", "stem": "HD600BP (Floyd) L1", "brand_hint": "HD600BP (Floyd)", "txt": "data\\squig_raw\\listener\\HD600BP (Floyd) L1.txt"}
+{"site": "listener", "stem": "HD600BS (Claire) L1", "brand_hint": "HD600BS (Claire)", "txt": "data\\squig_raw\\listener\\HD600BS (Claire) L1.txt"}
+{"site": "listener", "stem": "HD600SS (New Pads) L1", "brand_hint": "HD600SS (New Pads)", "txt": "data\\squig_raw\\listener\\HD600SS (New Pads) L1.txt"}
+{"site": "listener", "stem": "HD600SS (Old Pads) L1", "brand_hint": "HD600SS (Old Pads)", "txt": "data\\squig_raw\\listener\\HD600SS (Old Pads) L1.txt"}
+{"site": "listener", "stem": "HD650BP (Kyle) L1", "brand_hint": "HD650BP (Kyle)", "txt": "data\\squig_raw\\listener\\HD650BP (Kyle) L1.txt"}
+{"site": "listener", "stem": "HD650BS (Dilupus) L1", "brand_hint": "HD650BS (Dilupus)", "txt": "data\\squig_raw\\listener\\HD650BS (Dilupus) L1.txt"}
+{"site": "listener", "stem": "HD650BS (Humble) L1", "brand_hint": "HD650BS (Humble)", "txt": "data\\squig_raw\\listener\\HD650BS (Humble) L1.txt"}
+{"site": "listener", "stem": "HD650SS (Fuku) L1", "brand_hint": "HD650SS (Fuku)", "txt": "data\\squig_raw\\listener\\HD650SS (Fuku) L1.txt"}
+{"site": "listener", "stem": "HD800 (Dilupus) R1", "brand_hint": "HD800 (Dilupus)", "txt": "data\\squig_raw\\listener\\HD800 (Dilupus) R1.txt"}
+{"site": "listener", "stem": "Hi-x60 L1", "brand_hint": "Hi-x60", "txt": "data\\squig_raw\\listener\\Hi-x60 L1.txt"}
+{"site": "listener", "stem": "Hifiman HE400SE R1", "brand_hint": "Hifiman HE400SE", "txt": "data\\squig_raw\\listener\\Hifiman HE400SE R1.txt"}
+{"site": "listener", "stem": "Horizon L1", "brand_hint": "Horizon", "txt": "data\\squig_raw\\listener\\Horizon L1.txt"}
+{"site": "listener", "stem": "Immanis L1", "brand_hint": "Immanis", "txt": "data\\squig_raw\\listener\\Immanis L1.txt"}
+{"site": "listener", "stem": "Koss KSC75 L1", "brand_hint": "Koss KSC75", "txt": "data\\squig_raw\\listener\\Koss KSC75 L1.txt"}
+{"site": "listener", "stem": "LCD-4 (Humble) L1", "brand_hint": "LCD-4 (Humble)", "txt": "data\\squig_raw\\listener\\LCD-4 (Humble) L1.txt"}
+{"site": "listener", "stem": "LCD-4 (James) L1", "brand_hint": "LCD-4 (James)", "txt": "data\\squig_raw\\listener\\LCD-4 (James) L1.txt"}
+{"site": "listener", "stem": "LCD-5S L1", "brand_hint": "LCD-5S", "txt": "data\\squig_raw\\listener\\LCD-5S L1.txt"}
+{"site": "listener", "stem": "LCD-X (Kyle) L1", "brand_hint": "LCD-X (Kyle)", "txt": "data\\squig_raw\\listener\\LCD-X (Kyle) L1.txt"}
+{"site": "listener", "stem": "Lensys APad Strap L1", "brand_hint": "Lensys APad Strap", "txt": "data\\squig_raw\\listener\\Lensys APad Strap L1.txt"}
+{"site": "listener", "stem": "Lensys APad Strapless L1", "brand_hint": "Lensys APad Strapless", "txt": "data\\squig_raw\\listener\\Lensys APad Strapless L1.txt"}
+{"site": "listener", "stem": "Lensys Strapless L1", "brand_hint": "Lensys Strapless", "txt": "data\\squig_raw\\listener\\Lensys Strapless L1.txt"}
+{"site": "listener", "stem": "MM-100 Loose L1", "brand_hint": "MM-100 Loose", "txt": "data\\squig_raw\\listener\\MM-100 Loose L1.txt"}
+{"site": "listener", "stem": "MM-100 Tight L1", "brand_hint": "MM-100 Tight", "txt": "data\\squig_raw\\listener\\MM-100 Tight L1.txt"}
+{"site": "listener", "stem": "MM-500 New L1", "brand_hint": "MM-500 New", "txt": "data\\squig_raw\\listener\\MM-500 New L1.txt"}
+{"site": "listener", "stem": "MM-500 New MoreClamp L1", "brand_hint": "MM-500 New MoreClamp", "txt": "data\\squig_raw\\listener\\MM-500 New MoreClamp L1.txt"}
+{"site": "listener", "stem": "Noire XO Bwd L1", "brand_hint": "Noire XO Bwd", "txt": "data\\squig_raw\\listener\\Noire XO Bwd L1.txt"}
+{"site": "listener", "stem": "Noire XO L1", "brand_hint": "Noire XO", "txt": "data\\squig_raw\\listener\\Noire XO L1.txt"}
+{"site": "listener", "stem": "Noire XO Up L1", "brand_hint": "Noire XO Up", "txt": "data\\squig_raw\\listener\\Noire XO Up L1.txt"}
+{"site": "listener", "stem": "OldFashioned R1", "brand_hint": "OldFashioned", "txt": "data\\squig_raw\\listener\\OldFashioned R1.txt"}
+{"site": "listener", "stem": "Pioneer HDJ-X5 L1", "brand_hint": "Pioneer HDJ-X5", "txt": "data\\squig_raw\\listener\\Pioneer HDJ-X5 L1.txt"}
+{"site": "listener", "stem": "Pioneer HDJ-X7 L1", "brand_hint": "Pioneer HDJ-X7", "txt": "data\\squig_raw\\listener\\Pioneer HDJ-X7 L1.txt"}
+{"site": "listener", "stem": "PortaPro Wireless R1", "brand_hint": "PortaPro Wireless", "txt": "data\\squig_raw\\listener\\PortaPro Wireless R1.txt"}
+{"site": "listener", "stem": "Sennheiser HD200 Pro R1", "brand_hint": "Sennheiser HD200 Pro", "txt": "data\\squig_raw\\listener\\Sennheiser HD200 Pro R1.txt"}
+{"site": "listener", "stem": "Sennheiser HD25 L1", "brand_hint": "Sennheiser HD25", "txt": "data\\squig_raw\\listener\\Sennheiser HD25 L1.txt"}
+{"site": "listener", "stem": "Sennheiser HD280 Pro L1", "brand_hint": "Sennheiser HD280 Pro", "txt": "data\\squig_raw\\listener\\Sennheiser HD280 Pro L1.txt"}
+{"site": "listener", "stem": "Sennheiser HD300 Pro L1", "brand_hint": "Sennheiser HD300 Pro", "txt": "data\\squig_raw\\listener\\Sennheiser HD300 Pro L1.txt"}
+{"site": "listener", "stem": "Sennheiser HD560S R1", "brand_hint": "Sennheiser HD560S", "txt": "data\\squig_raw\\listener\\Sennheiser HD560S R1.txt"}
+{"site": "listener", "stem": "Sennheiser HD560S S2 L1", "brand_hint": "Sennheiser HD560S S2", "txt": "data\\squig_raw\\listener\\Sennheiser HD560S S2 L1.txt"}
+{"site": "listener", "stem": "Sennheiser HD800 L1", "brand_hint": "Sennheiser HD800", "txt": "data\\squig_raw\\listener\\Sennheiser HD800 L1.txt"}
+{"site": "listener", "stem": "Shure SRH440A L1", "brand_hint": "Shure SRH440A", "txt": "data\\squig_raw\\listener\\Shure SRH440A L1.txt"}
+{"site": "listener", "stem": "Shure SRH840A L1", "brand_hint": "Shure SRH840A", "txt": "data\\squig_raw\\listener\\Shure SRH840A L1.txt"}
+{"site": "listener", "stem": "Venus (Dilupus) R1", "brand_hint": "Venus (Dilupus)", "txt": "data\\squig_raw\\listener\\Venus (Dilupus) R1.txt"}
+{"site": "listener", "stem": "Yamaha HPH-MT5 L1", "brand_hint": "Yamaha HPH-MT5", "txt": "data\\squig_raw\\listener\\Yamaha HPH-MT5 L1.txt"}
+{"site": "precog", "stem": "AKG Free Buds R", "brand_hint": "AKG Free Buds", "txt": "data\\squig_raw\\precog\\AKG Free Buds R.txt"}
+{"site": "precog", "stem": "Audeze Euclid L", "brand_hint": "Audeze Euclid", "txt": "data\\squig_raw\\precog\\Audeze Euclid L.txt"}
+{"site": "precog", "stem": "Beyerdynamic Xelento L", "brand_hint": "Beyerdynamic Xelento", "txt": "data\\squig_raw\\precog\\Beyerdynamic Xelento L.txt"}
+{"site": "precog", "stem": "Hifiman Bolt L", "brand_hint": "Hifiman Bolt", "txt": "data\\squig_raw\\precog\\Hifiman Bolt L.txt"}
+{"site": "precog", "stem": "JVC FWX1 L", "brand_hint": "JVC FWX1", "txt": "data\\squig_raw\\precog\\JVC FWX1 L.txt"}
+{"site": "precog", "stem": "JVC HAFDX1 (Blue Filter) L", "brand_hint": "JVC HAFDX1 (Blue Filter)", "txt": "data\\squig_raw\\precog\\JVC HAFDX1 (Blue Filter) L.txt"}
+{"site": "precog", "stem": "JVC HAFDX1 (Green Filter) L", "brand_hint": "JVC HAFDX1 (Green Filter)", "txt": "data\\squig_raw\\precog\\JVC HAFDX1 (Green Filter) L.txt"}
+{"site": "precog", "stem": "Moondrop Aria L", "brand_hint": "Moondrop Aria", "txt": "data\\squig_raw\\precog\\Moondrop Aria L.txt"}
+{"site": "precog", "stem": "Moondrop Aria Snow L", "brand_hint": "Moondrop Aria Snow", "txt": "data\\squig_raw\\precog\\Moondrop Aria Snow L.txt"}
+{"site": "precog", "stem": "Moondrop Blessing 2 Dusk L", "brand_hint": "Moondrop Blessing 2 Dusk", "txt": "data\\squig_raw\\precog\\Moondrop Blessing 2 Dusk L.txt"}
+{"site": "precog", "stem": "Moondrop Blessing 2 R", "brand_hint": "Moondrop Blessing 2", "txt": "data\\squig_raw\\precog\\Moondrop Blessing 2 R.txt"}
+{"site": "precog", "stem": "Moondrop Blessing 3 L", "brand_hint": "Moondrop Blessing 3", "txt": "data\\squig_raw\\precog\\Moondrop Blessing 3 L.txt"}
+{"site": "precog", "stem": "Moondrop Blessing L", "brand_hint": "Moondrop Blessing", "txt": "data\\squig_raw\\precog\\Moondrop Blessing L.txt"}
+{"site": "precog", "stem": "Moondrop Chu 3 L", "brand_hint": "Moondrop Chu 3", "txt": "data\\squig_raw\\precog\\Moondrop Chu 3 L.txt"}
+{"site": "precog", "stem": "Moondrop Chu R", "brand_hint": "Moondrop Chu", "txt": "data\\squig_raw\\precog\\Moondrop Chu R.txt"}
+{"site": "precog", "stem": "Moondrop Dark Saber R", "brand_hint": "Moondrop Dark Saber", "txt": "data\\squig_raw\\precog\\Moondrop Dark Saber R.txt"}
+{"site": "precog", "stem": "Moondrop Illumination L", "brand_hint": "Moondrop Illumination", "txt": "data\\squig_raw\\precog\\Moondrop Illumination L.txt"}
+{"site": "precog", "stem": "Moondrop Illumination S2 L", "brand_hint": "Moondrop Illumination S2", "txt": "data\\squig_raw\\precog\\Moondrop Illumination S2 L.txt"}
+{"site": "precog", "stem": "Moondrop Illustrious L", "brand_hint": "Moondrop Illustrious", "txt": "data\\squig_raw\\precog\\Moondrop Illustrious L.txt"}
+{"site": "precog", "stem": "Moondrop KXXS L", "brand_hint": "Moondrop KXXS", "txt": "data\\squig_raw\\precog\\Moondrop KXXS L.txt"}
+{"site": "precog", "stem": "Moondrop KXXX L", "brand_hint": "Moondrop KXXX", "txt": "data\\squig_raw\\precog\\Moondrop KXXX L.txt"}
+{"site": "precog", "stem": "Moondrop Kanas Pro L", "brand_hint": "Moondrop Kanas Pro", "txt": "data\\squig_raw\\precog\\Moondrop Kanas Pro L.txt"}
+{"site": "precog", "stem": "Moondrop Kato (Gold) L", "brand_hint": "Moondrop Kato (Gold)", "txt": "data\\squig_raw\\precog\\Moondrop Kato (Gold) L.txt"}
+{"site": "precog", "stem": "Moondrop Kato (Silver) R", "brand_hint": "Moondrop Kato (Silver)", "txt": "data\\squig_raw\\precog\\Moondrop Kato (Silver) R.txt"}
+{"site": "precog", "stem": "Moondrop LAN L", "brand_hint": "Moondrop LAN", "txt": "data\\squig_raw\\precog\\Moondrop LAN L.txt"}
+{"site": "precog", "stem": "Moondrop May L", "brand_hint": "Moondrop May", "txt": "data\\squig_raw\\precog\\Moondrop May L.txt"}
+{"site": "precog", "stem": "Moondrop Quarks L", "brand_hint": "Moondrop Quarks", "txt": "data\\squig_raw\\precog\\Moondrop Quarks L.txt"}
+{"site": "precog", "stem": "Moondrop S8 R", "brand_hint": "Moondrop S8", "txt": "data\\squig_raw\\precog\\Moondrop S8 R.txt"}
+{"site": "precog", "stem": "Moondrop SSR L", "brand_hint": "Moondrop SSR", "txt": "data\\squig_raw\\precog\\Moondrop SSR L.txt"}
+{"site": "precog", "stem": "Moondrop Solis 2 L", "brand_hint": "Moondrop Solis 2", "txt": "data\\squig_raw\\precog\\Moondrop Solis 2 L.txt"}
+{"site": "precog", "stem": "Moondrop Solis L", "brand_hint": "Moondrop Solis", "txt": "data\\squig_raw\\precog\\Moondrop Solis L.txt"}
+{"site": "precog", "stem": "Moondrop Spaceship R", "brand_hint": "Moondrop Spaceship", "txt": "data\\squig_raw\\precog\\Moondrop Spaceship R.txt"}
+{"site": "precog", "stem": "Moondrop Sparks L", "brand_hint": "Moondrop Sparks", "txt": "data\\squig_raw\\precog\\Moondrop Sparks L.txt"}
+{"site": "precog", "stem": "Moondrop Starfield II L", "brand_hint": "Moondrop Starfield II", "txt": "data\\squig_raw\\precog\\Moondrop Starfield II L.txt"}
+{"site": "precog", "stem": "Moondrop Starfield L", "brand_hint": "Moondrop Starfield", "txt": "data\\squig_raw\\precog\\Moondrop Starfield L.txt"}
+{"site": "precog", "stem": "Moondrop Stellaris L", "brand_hint": "Moondrop Stellaris", "txt": "data\\squig_raw\\precog\\Moondrop Stellaris L.txt"}
+{"site": "precog", "stem": "Moondrop Variations L", "brand_hint": "Moondrop Variations", "txt": "data\\squig_raw\\precog\\Moondrop Variations L.txt"}
+{"site": "precog", "stem": "Moondrop Variations S2 L", "brand_hint": "Moondrop Variations S2", "txt": "data\\squig_raw\\precog\\Moondrop Variations S2 L.txt"}
+{"site": "precog", "stem": "Moondrop Variations S3 L", "brand_hint": "Moondrop Variations S3", "txt": "data\\squig_raw\\precog\\Moondrop Variations S3 L.txt"}
+{"site": "precog", "stem": "Moondrop x Crinacle Dusk R", "brand_hint": "Moondrop x Crinacle Dusk", "txt": "data\\squig_raw\\precog\\Moondrop x Crinacle Dusk R.txt"}
+{"site": "precog", "stem": "Sennheiser IE200 L", "brand_hint": "Sennheiser IE200", "txt": "data\\squig_raw\\precog\\Sennheiser IE200 L.txt"}
+{"site": "precog", "stem": "Sennheiser IE300 L", "brand_hint": "Sennheiser IE300", "txt": "data\\squig_raw\\precog\\Sennheiser IE300 L.txt"}
+{"site": "precog", "stem": "Sennheiser IE600 R", "brand_hint": "Sennheiser IE600", "txt": "data\\squig_raw\\precog\\Sennheiser IE600 R.txt"}
+{"site": "precog", "stem": "Sennheiser IE600 S2 R", "brand_hint": "Sennheiser IE600 S2", "txt": "data\\squig_raw\\precog\\Sennheiser IE600 S2 R.txt"}
+{"site": "precog", "stem": "Sennheiser IE900 L", "brand_hint": "Sennheiser IE900", "txt": "data\\squig_raw\\precog\\Sennheiser IE900 L.txt"}
+{"site": "precog", "stem": "Sennheiser IE900 S2 (no filter) R", "brand_hint": "Sennheiser IE900 S2 (no filter)", "txt": "data\\squig_raw\\precog\\Sennheiser IE900 S2 (no filter) R.txt"}
+{"site": "precog", "stem": "Sennheiser IE900 S2 (w Filter Before) R", "brand_hint": "Sennheiser IE900 S2 (w Filter Before)", "txt": "data\\squig_raw\\precog\\Sennheiser IE900 S2 (w Filter Before) R.txt"}
+{"site": "precog", "stem": "Sennheiser IE900 S2 L", "brand_hint": "Sennheiser IE900 S2", "txt": "data\\squig_raw\\precog\\Sennheiser IE900 S2 L.txt"}
+{"site": "precog", "stem": "Sennheiser IE900 S2 No EQ L", "brand_hint": "Sennheiser IE900 S2 No EQ", "txt": "data\\squig_raw\\precog\\Sennheiser IE900 S2 No EQ L.txt"}
+{"site": "vsg", "stem": "Audeze Euclid L", "brand_hint": "Audeze Euclid", "txt": "data\\squig_raw\\vsg\\Audeze Euclid L.txt"}
+{"site": "vsg", "stem": "Audio-Technica ATH-ANC300TW L", "brand_hint": "Audio-Technica ATH-ANC300TW", "txt": "data\\squig_raw\\vsg\\Audio-Technica ATH-ANC300TW L.txt"}
+{"site": "vsg", "stem": "HIFIMAN RE2000 Pro Gold L", "brand_hint": "HIFIMAN RE2000 Pro Gold", "txt": "data\\squig_raw\\vsg\\HIFIMAN RE2000 Pro Gold L.txt"}
+{"site": "vsg", "stem": "HIFIMAN Svanar L", "brand_hint": "HIFIMAN Svanar", "txt": "data\\squig_raw\\vsg\\HIFIMAN Svanar L.txt"}
+{"site": "vsg", "stem": "HIFIMAN Svanar S2 L", "brand_hint": "HIFIMAN Svanar S2", "txt": "data\\squig_raw\\vsg\\HIFIMAN Svanar S2 L.txt"}
+{"site": "vsg", "stem": "HIFIMAN Svanar S3 L", "brand_hint": "HIFIMAN Svanar S3", "txt": "data\\squig_raw\\vsg\\HIFIMAN Svanar S3 L.txt"}
+{"site": "vsg", "stem": "HIFIMAN Svanar S4 L", "brand_hint": "HIFIMAN Svanar S4", "txt": "data\\squig_raw\\vsg\\HIFIMAN Svanar S4 L.txt"}
+{"site": "vsg", "stem": "HIFIMAN Svanar Wireless L", "brand_hint": "HIFIMAN Svanar Wireless", "txt": "data\\squig_raw\\vsg\\HIFIMAN Svanar Wireless L.txt"}
+{"site": "vsg", "stem": "HIFIMAN TWS800 R", "brand_hint": "HIFIMAN TWS800", "txt": "data\\squig_raw\\vsg\\HIFIMAN TWS800 R.txt"}
+{"site": "vsg", "stem": "HarmonicDyne P.D.1 L", "brand_hint": "HarmonicDyne P.D.1", "txt": "data\\squig_raw\\vsg\\HarmonicDyne P.D.1 L.txt"}
+{"site": "vsg", "stem": "MOONDROP Aria Snow Edition L", "brand_hint": "MOONDROP Aria Snow Edition", "txt": "data\\squig_raw\\vsg\\MOONDROP Aria Snow Edition L.txt"}
+{"site": "vsg", "stem": "MOONDROP Blessing 3 L", "brand_hint": "MOONDROP Blessing 3", "txt": "data\\squig_raw\\vsg\\MOONDROP Blessing 3 L.txt"}
+{"site": "vsg", "stem": "MOONDROP Concerto L", "brand_hint": "MOONDROP Concerto", "txt": "data\\squig_raw\\vsg\\MOONDROP Concerto L.txt"}
+{"site": "vsg", "stem": "MOONDROP Droplet L", "brand_hint": "MOONDROP Droplet", "txt": "data\\squig_raw\\vsg\\MOONDROP Droplet L.txt"}
+{"site": "vsg", "stem": "MOONDROP LAN L", "brand_hint": "MOONDROP LAN", "txt": "data\\squig_raw\\vsg\\MOONDROP LAN L.txt"}
+{"site": "vsg", "stem": "MOONDROP NEKOCAKE L", "brand_hint": "MOONDROP NEKOCAKE", "txt": "data\\squig_raw\\vsg\\MOONDROP NEKOCAKE L.txt"}
+{"site": "vsg", "stem": "MOONDROP STELLARIS L", "brand_hint": "MOONDROP STELLARIS", "txt": "data\\squig_raw\\vsg\\MOONDROP STELLARIS L.txt"}
+{"site": "vsg", "stem": "MOONDROP Solis 2 L", "brand_hint": "MOONDROP Solis 2", "txt": "data\\squig_raw\\vsg\\MOONDROP Solis 2 L.txt"}
+{"site": "vsg", "stem": "MOONDROP Solis 2 UC L", "brand_hint": "MOONDROP Solis 2 UC", "txt": "data\\squig_raw\\vsg\\MOONDROP Solis 2 UC L.txt"}
+{"site": "vsg", "stem": "MOONDROP Starfield 2 R", "brand_hint": "MOONDROP Starfield 2", "txt": "data\\squig_raw\\vsg\\MOONDROP Starfield 2 R.txt"}
+{"site": "vsg", "stem": "MOONDROP Starfield 2 bass L", "brand_hint": "MOONDROP Starfield 2 bass", "txt": "data\\squig_raw\\vsg\\MOONDROP Starfield 2 bass L.txt"}
+{"site": "vsg", "stem": "MOONDROP x Crinacle Dusk DSP Bass+ L", "brand_hint": "MOONDROP x Crinacle Dusk DSP Bass+", "txt": "data\\squig_raw\\vsg\\MOONDROP x Crinacle Dusk DSP Bass+ L.txt"}
+{"site": "vsg", "stem": "MOONDROP x Crinacle Dusk DSP Diffuse L", "brand_hint": "MOONDROP x Crinacle Dusk DSP Diffuse", "txt": "data\\squig_raw\\vsg\\MOONDROP x Crinacle Dusk DSP Diffuse L.txt"}
+{"site": "vsg", "stem": "MOONDROP x Crinacle Dusk DSP Harman L", "brand_hint": "MOONDROP x Crinacle Dusk DSP Harman", "txt": "data\\squig_raw\\vsg\\MOONDROP x Crinacle Dusk DSP Harman L.txt"}
+{"site": "vsg", "stem": "MOONDROP x Crinacle Dusk DSP V R", "brand_hint": "MOONDROP x Crinacle Dusk DSP V", "txt": "data\\squig_raw\\vsg\\MOONDROP x Crinacle Dusk DSP V R.txt"}
+{"site": "vsg", "stem": "MOONDROP x Crinacle Dusk DSP default R", "brand_hint": "MOONDROP x Crinacle Dusk DSP default", "txt": "data\\squig_raw\\vsg\\MOONDROP x Crinacle Dusk DSP default R.txt"}
+{"site": "vsg", "stem": "MOONDROP x Crinacle Dusk analog L", "brand_hint": "MOONDROP x Crinacle Dusk analog", "txt": "data\\squig_raw\\vsg\\MOONDROP x Crinacle Dusk analog L.txt"}
+{"site": "vsg", "stem": "Meze Alba L", "brand_hint": "Meze Alba", "txt": "data\\squig_raw\\vsg\\Meze Alba L.txt"}
+{"site": "vsg", "stem": "Moondrop Aria L", "brand_hint": "Moondrop Aria", "txt": "data\\squig_raw\\vsg\\Moondrop Aria L.txt"}
+{"site": "vsg", "stem": "Moondrop CHU 2 R", "brand_hint": "Moondrop CHU 2", "txt": "data\\squig_raw\\vsg\\Moondrop CHU 2 R.txt"}
+{"site": "vsg", "stem": "Moondrop CHU L", "brand_hint": "Moondrop CHU", "txt": "data\\squig_raw\\vsg\\Moondrop CHU L.txt"}
+{"site": "vsg", "stem": "Moondrop KATO L", "brand_hint": "Moondrop KATO", "txt": "data\\squig_raw\\vsg\\Moondrop KATO L.txt"}
+{"site": "vsg", "stem": "Moondrop Quark2 L", "brand_hint": "Moondrop Quark2", "txt": "data\\squig_raw\\vsg\\Moondrop Quark2 L.txt"}
+{"site": "vsg", "stem": "Moondrop Quark2 deep R", "brand_hint": "Moondrop Quark2 deep", "txt": "data\\squig_raw\\vsg\\Moondrop Quark2 deep R.txt"}
+{"site": "vsg", "stem": "Moondrop Quarks DSP L", "brand_hint": "Moondrop Quarks DSP", "txt": "data\\squig_raw\\vsg\\Moondrop Quarks DSP L.txt"}
+{"site": "vsg", "stem": "Moondrop Space Travel basshead L", "brand_hint": "Moondrop Space Travel basshead", "txt": "data\\squig_raw\\vsg\\Moondrop Space Travel basshead L.txt"}
+{"site": "vsg", "stem": "Moondrop Space Travel monitor R", "brand_hint": "Moondrop Space Travel monitor", "txt": "data\\squig_raw\\vsg\\Moondrop Space Travel monitor R.txt"}
+{"site": "vsg", "stem": "Moondrop Space Travel reference L", "brand_hint": "Moondrop Space Travel reference", "txt": "data\\squig_raw\\vsg\\Moondrop Space Travel reference L.txt"}
+{"site": "vsg", "stem": "Moondrop Sparks L", "brand_hint": "Moondrop Sparks", "txt": "data\\squig_raw\\vsg\\Moondrop Sparks L.txt"}
+{"site": "vsg", "stem": "Sennheiser CX True Wireless R", "brand_hint": "Sennheiser CX True Wireless", "txt": "data\\squig_raw\\vsg\\Sennheiser CX True Wireless R.txt"}

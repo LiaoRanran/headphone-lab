@@ -1,0 +1,17 @@
+{
+  "_note": "sourced = 已发布且有来源的量化档案；measured = 本项目自测（把音频放 data/audio/ 后跑 python src/music_profile.py scan）",
+  "_critical_gap": "trackscore.ai 明确声明：\"Hip-hop, pop, and acoustic genres are outside the scoring scope\" —— J-pop / 人声 / 动漫 OST / 夜鹿 **没有任何公开量化档案**，必须靠自测。",
+  "sourced": {
+    "electronic_general": {
+      "profile": { "sub": 27, "bass": 54, "low_mid": 6, "mid": 5, "upper_mid": 4, "high": 4, "air": 0 },
+      "src": "trackscore.ai/blog/frequency-balance-electronic-music（发布 2026-03-24，更新 2026-09-27）",
+      "metric": "% linear-power（占总频谱能量的线性功率百分比）",
+      "band_def": { "sub": "20–60Hz", "bass": "60–250Hz", "low_mid": "250–500Hz", "mid": "500–2kHz", "upper_mid": "2–6kHz", "high": "6–16kHz", "air": "16–20kHz" }
+    },
+    "deep_house": { "profile": { "sub": 32, "bass": 52 }, "src": "trackscore.ai（同上）", "metric": "同上" },
+    "trance": { "profile": { "sub": 35, "bass": 49 }, "src": "trackscore.ai（同上）", "metric": "同上" },
+    "drum_and_bass": { "profile": { "sub": 31, "bass": 50 }, "src": "trackscore.ai（同上）", "metric": "同上" },
+    "bass_music_dubstep": { "profile": { "sub": 45, "bass": 31 }, "src": "trackscore.ai（同上）", "metric": "同上" }
+  },
+  "measured": {}
+}

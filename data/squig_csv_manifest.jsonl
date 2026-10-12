@@ -1,0 +1,475 @@
+{"name": "BD Am100 ANC EQNeu L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\BD Am100 ANC EQNeu L.csv"}
+{"name": "BD Am100 ANC EQOff L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\BD Am100 ANC EQOff L.csv"}
+{"name": "BD Am100 Norm EQOff L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\BD Am100 Norm EQOff L.csv"}
+{"name": "BD Am300 ANC EQNeu L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\BD Am300 ANC EQNeu L.csv"}
+{"name": "BD Am300 Norm EQOff L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\BD Am300 Norm EQOff L.csv"}
+{"name": "BW Pi8 ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\BW Pi8 ANC L.csv"}
+{"name": "DPP Stock L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\DPP Stock L.csv"}
+{"name": "IE200 L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\IE200 L.csv"}
+{"name": "MD Robin Clsc ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD Robin Clsc ANC L.csv"}
+{"name": "MD Robin Mtr ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD Robin Mtr ANC L.csv"}
+{"name": "MD Robin Std ANC R", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD Robin Std ANC R.csv"}
+{"name": "MD Robin Std Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD Robin Std Norm L.csv"}
+{"name": "MD Robin UBass ANC R", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD Robin UBass ANC R.csv"}
+{"name": "MD ST ANC Bas R", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD ST ANC Bas R.csv"}
+{"name": "MD ST ANC Mon L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD ST ANC Mon L.csv"}
+{"name": "MD ST ANC Ref L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD ST ANC Ref L.csv"}
+{"name": "MD ST Norm Bas L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD ST Norm Bas L.csv"}
+{"name": "MD ST Norm Mon L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD ST Norm Mon L.csv"}
+{"name": "MD ST Norm Ref L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD ST Norm Ref L.csv"}
+{"name": "MD x CrinDusk 3.5 L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD x CrinDusk 3.5 L.csv"}
+{"name": "MD x CrinDusk Bass R", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD x CrinDusk Bass R.csv"}
+{"name": "MD x CrinDusk Hrmn L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD x CrinDusk Hrmn L.csv"}
+{"name": "MD x CrinDusk USB Def L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD x CrinDusk USB Def L.csv"}
+{"name": "MD x CrinDusk V L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MD x CrinDusk V L.csv"}
+{"name": "MDGA Basshead ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDGA Basshead ANC L.csv"}
+{"name": "MDGA Basshead Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDGA Basshead Norm L.csv"}
+{"name": "MDGA Monitor ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDGA Monitor ANC L.csv"}
+{"name": "MDGA Monitor Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDGA Monitor Norm L.csv"}
+{"name": "MDGA Reference ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDGA Reference ANC L.csv"}
+{"name": "MDGA Reference Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDGA Reference Norm L.csv"}
+{"name": "MDST2 Bass+ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDST2 Bass+ANC L.csv"}
+{"name": "MDST2 Bass+Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDST2 Bass+Norm L.csv"}
+{"name": "MDST2 Ref-ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\MDST2 Ref-ANC L.csv"}
+{"name": "Momentum TWS3 ANCOff L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Momentum TWS3 ANCOff L.csv"}
+{"name": "Momentum TWS3 ANCOn L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Momentum TWS3 ANCOn L.csv"}
+{"name": "Moondrop Pudding ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Moondrop Pudding ANC L.csv"}
+{"name": "Moondrop Pudding Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Moondrop Pudding Norm L.csv"}
+{"name": "Pi7S2 ANCOff L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Pi7S2 ANCOff L.csv"}
+{"name": "Pi7S2 ANCOn L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Pi7S2 ANCOn L.csv"}
+{"name": "SMTW5 ANC Neutral BB R", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\SMTW5 ANC Neutral BB R.csv"}
+{"name": "SMTW5 ANC Neutral R", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\SMTW5 ANC Neutral R.csv"}
+{"name": "SMTW5 Norm Neutral L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\SMTW5 Norm Neutral L.csv"}
+{"name": "Senn CXPlus ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Senn CXPlus ANC L.csv"}
+{"name": "Senn CXPlus Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Senn CXPlus Norm L.csv"}
+{"name": "SennAccTWS ANC R", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\SennAccTWS ANC R.csv"}
+{"name": "SennAccTWS Norm L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\SennAccTWS Norm L.csv"}
+{"name": "SennMTW4 ANCOff noEQ L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\SennMTW4 ANCOff noEQ L.csv"}
+{"name": "SennMTW4 ANCOn noEQ L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\SennMTW4 ANCOn noEQ L.csv"}
+{"name": "Svanar ANC L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Svanar ANC L.csv"}
+{"name": "Svanar Hifi L", "source": "squig:dhrme", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\dhrme\\Svanar Hifi L.csv"}
+{"name": "AKG 371 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\AKG 371 R.csv"}
+{"name": "Audio Technica 330xbt R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Audio Technica 330xbt R.csv"}
+{"name": "Beyerdynamic DT30ie R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Beyerdynamic DT30ie R.csv"}
+{"name": "Dsp Bass R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Dsp Bass R.csv"}
+{"name": "Dsp Dif Tilt R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Dsp Dif Tilt R.csv"}
+{"name": "Dsp Harmy R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Dsp Harmy R.csv"}
+{"name": "Dsp Vv R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Dsp Vv R.csv"}
+{"name": "Harm Baroque R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Harm Baroque R.csv"}
+{"name": "Harmonicdyne Athena Raw R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Harmonicdyne Athena Raw R.csv"}
+{"name": "Harmonicdyne Devil R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Harmonicdyne Devil R.csv"}
+{"name": "Harmonicdyne New R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Harmonicdyne New R.csv"}
+{"name": "Harzu R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Harzu R.csv"}
+{"name": "Hifiman Arya Stealth R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Hifiman Arya Stealth R.csv"}
+{"name": "Hifiman HE400se R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Hifiman HE400se R.csv"}
+{"name": "Hifiman HEseV2 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Hifiman HEseV2 R.csv"}
+{"name": "Moon Be R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moon Be R.csv"}
+{"name": "Moon Chu 3 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moon Chu 3 R.csv"}
+{"name": "Moon Dusk 2 L R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moon Dusk 2 L R.csv"}
+{"name": "Moon Dusk 2 R R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moon Dusk 2 R R.csv"}
+{"name": "Moondrop Alice TWS R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Alice TWS R.csv"}
+{"name": "Moondrop Aria R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Aria R.csv"}
+{"name": "Moondrop Aria Snow R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Aria Snow R.csv"}
+{"name": "Moondrop Blessing 3 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Blessing 3 R.csv"}
+{"name": "Moondrop Chu 3 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Chu 3 R.csv"}
+{"name": "Moondrop Dusk R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Dusk R.csv"}
+{"name": "Moondrop Illumination R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Illumination R.csv"}
+{"name": "Moondrop KATO R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop KATO R.csv"}
+{"name": "Moondrop Quarks Dsp R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Quarks Dsp R.csv"}
+{"name": "Moondrop Solis 2 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Solis 2 R.csv"}
+{"name": "Moondrop Starfield R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Starfield R.csv"}
+{"name": "Moondrop Stellaris Fo R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Stellaris Fo R.csv"}
+{"name": "Moondrop Stellaris Sil R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop Stellaris Sil R.csv"}
+{"name": "Moondrop X Tago R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop X Tago R.csv"}
+{"name": "Moondrop ssr R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Moondrop ssr R.csv"}
+{"name": "Sendy Peacock R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Sendy Peacock R.csv"}
+{"name": "Sennheiser IE600 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Sennheiser IE600 R.csv"}
+{"name": "Sennheiser IE900 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Sennheiser IE900 R.csv"}
+{"name": "Sennheiser IE900 Regular Foams R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Sennheiser IE900 Regular Foams R.csv"}
+{"name": "Sennheiser ie200 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\Sennheiser ie200 R.csv"}
+{"name": "T20 Mod1 R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\T20 Mod1 R.csv"}
+{"name": "T20 Raw R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\T20 Raw R.csv"}
+{"name": "T50RP MKIII R", "source": "squig:hbb", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\hbb\\T50RP MKIII R.csv"}
+{"name": "Aria R", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Aria R.csv"}
+{"name": "Blessing3Aqua L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Blessing3Aqua L.csv"}
+{"name": "Concerto L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Concerto L.csv"}
+{"name": "Crinacle Silicon L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Crinacle Silicon L.csv"}
+{"name": "DUSKDSP R", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\DUSKDSP R.csv"}
+{"name": "Dusk2 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Dusk2 L.csv"}
+{"name": "IE 200 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\IE 200 L.csv"}
+{"name": "IE 600 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\IE 600 L.csv"}
+{"name": "ILLUMINATION R", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\ILLUMINATION R.csv"}
+{"name": "Kadenz R", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Kadenz R.csv"}
+{"name": "Lan L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Lan L.csv"}
+{"name": "May L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\May L.csv"}
+{"name": "Meze AudioAlba R", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Meze AudioAlba R.csv"}
+{"name": "MoonMeteor50 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\MoonMeteor50 L.csv"}
+{"name": "Moondrop Starfield II R", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Moondrop Starfield II R.csv"}
+{"name": "Moondrop Surface L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Moondrop Surface L.csv"}
+{"name": "MoondropHarmon L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\MoondropHarmon L.csv"}
+{"name": "MoondropPSYCHE L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\MoondropPSYCHE L.csv"}
+{"name": "MoondropPSYCHE220 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\MoondropPSYCHE220 L.csv"}
+{"name": "MoondropPSYCHE25 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\MoondropPSYCHE25 L.csv"}
+{"name": "MoondropPSYCHE50 R", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\MoondropPSYCHE50 R.csv"}
+{"name": "Que L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Que L.csv"}
+{"name": "Sivga260 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Sivga260 L.csv"}
+{"name": "SivgaLyrebird L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\SivgaLyrebird L.csv"}
+{"name": "SivgaSM100 L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\SivgaSM100 L.csv"}
+{"name": "Variations L", "source": "squig:jaytiss", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\jaytiss\\Variations L.csv"}
+{"name": "Aria L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Aria L.csv"}
+{"name": "Chu L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Chu L.csv"}
+{"name": "Dusk R", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Dusk R.csv"}
+{"name": "EDC3 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\EDC3 L.csv"}
+{"name": "KXXS (BGVP W01) L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\KXXS (BGVP W01) L.csv"}
+{"name": "KXXS (CP 100) L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\KXXS (CP 100) L.csv"}
+{"name": "KXXS (EP-EX11) L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\KXXS (EP-EX11) L.csv"}
+{"name": "KXXS (EX15) L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\KXXS (EX15) L.csv"}
+{"name": "KXXS (Symbio W Peel) R", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\KXXS (Symbio W Peel) R.csv"}
+{"name": "KXXS L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\KXXS L.csv"}
+{"name": "KXXS spring L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\KXXS spring L.csv"}
+{"name": "LAN L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\LAN L.csv"}
+{"name": "Sparks Balanced 1.2.1 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Sparks Balanced 1.2.1 L.csv"}
+{"name": "Sparks Basshead 1.2.1 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Sparks Basshead 1.2.1 L.csv"}
+{"name": "Sparks David Xu 1.2.1 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Sparks David Xu 1.2.1 L.csv"}
+{"name": "Sparks No bass 1.2.1 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Sparks No bass 1.2.1 L.csv"}
+{"name": "Sparks Studio 1.2.1 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\Sparks Studio 1.2.1 L.csv"}
+{"name": "TAE1105 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\TAE1105 L.csv"}
+{"name": "ga 5128 target R", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\ga 5128 target R.csv"}
+{"name": "ga monitor L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\ga monitor L.csv"}
+{"name": "ga reference L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\ga reference L.csv"}
+{"name": "ga secret target L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\ga secret target L.csv"}
+{"name": "may 3.5 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\may 3.5 L.csv"}
+{"name": "may basshead L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\may basshead L.csv"}
+{"name": "may harman style R", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\may harman style R.csv"}
+{"name": "may no bass L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\may no bass L.csv"}
+{"name": "may reference L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\may reference L.csv"}
+{"name": "may standard R", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\may standard R.csv"}
+{"name": "n5005 foam L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\n5005 foam L.csv"}
+{"name": "space travel basshead R", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\space travel basshead R.csv"}
+{"name": "space travel monitor L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\space travel monitor L.csv"}
+{"name": "space travel reference L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\space travel reference L.csv"}
+{"name": "spacetravel s2 L", "source": "squig:kr0mka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kr0mka\\spacetravel s2 L.csv"}
+{"name": "109 Pro (ZMF Titanium Solid Mesh) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\109 Pro (ZMF Titanium Solid Mesh) L.csv"}
+{"name": "109 Pro ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\109 Pro _ L.csv"}
+{"name": "109 Pro L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\109 Pro L.csv"}
+{"name": "AB-1266 Phi (Air Gap) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AB-1266 Phi (Air Gap) L.csv"}
+{"name": "AB-1266 Phi (Big Air Gap) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AB-1266 Phi (Big Air Gap) L.csv"}
+{"name": "AB-1266 Phi (Good Seal) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AB-1266 Phi (Good Seal) L.csv"}
+{"name": "AB1266 Phi TC (Big Air Gap) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AB1266 Phi TC (Big Air Gap) _ L.csv"}
+{"name": "AB1266 Phi TC (Good Seal) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AB1266 Phi TC (Good Seal) _ L.csv"}
+{"name": "AB1266 Phi TC (Small Air Gap) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AB1266 Phi TC (Small Air Gap) _ L.csv"}
+{"name": "AH-D9200 L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AH-D9200 L.csv"}
+{"name": "AR5000 ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\AR5000 _ L.csv"}
+{"name": "ATH-HL7BT ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\ATH-HL7BT _ L.csv"}
+{"name": "ATH-M50X ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\ATH-M50X _ L.csv"}
+{"name": "ATH-R70x L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\ATH-R70x L.csv"}
+{"name": "Aeolus (BE2 Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Aeolus (BE2 Perf Suede Pads) _ L.csv"}
+{"name": "Aeolus (Universe Perf Leather Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Aeolus (Universe Perf Leather Pads) _ R.csv"}
+{"name": "Aeolus (Universe Perf Suede Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Aeolus (Universe Perf Suede Pads) _ R.csv"}
+{"name": "Ananda ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Ananda _ L.csv"}
+{"name": "Ananda Nano ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Ananda Nano _ L.csv"}
+{"name": "Argon mk3 (ZMF Oval Pleather Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Argon mk3 (ZMF Oval Pleather Pads) L.csv"}
+{"name": "Arya Organic ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Arya Organic _ L.csv"}
+{"name": "Atrium (Auteur Perf Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Atrium (Auteur Perf Leather Pads) _ L.csv"}
+{"name": "Atrium (BE2 Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Atrium (BE2 Perf Suede Pads) _ L.csv"}
+{"name": "Atrium (Universe Perf Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Atrium (Universe Perf Leather Pads) _ L.csv"}
+{"name": "Atrium (Universe Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Atrium (Universe Perf Suede Pads) _ L.csv"}
+{"name": "Atticus (Eikon Suede Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Atticus (Eikon Suede Pads) L.csv"}
+{"name": "Atticus (Ori Leather Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Atticus (Ori Leather Pads) L.csv"}
+{"name": "Auteur (Auteur Perf Leather Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur (Auteur Perf Leather Pads) _ R.csv"}
+{"name": "Auteur (Auteur Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur (Auteur Perf Suede Pads) _ L.csv"}
+{"name": "Auteur (Eikon Perf Leather Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur (Eikon Perf Leather Pads) _ R.csv"}
+{"name": "Auteur (Eikon Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur (Eikon Perf Suede Pads) _ L.csv"}
+{"name": "Auteur (Universe Perf Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur (Universe Perf Leather Pads) _ L.csv"}
+{"name": "Auteur (Universe Perf Suede Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur (Universe Perf Suede Pads) _ R.csv"}
+{"name": "Auteur Classic (Auteur Perf Hybrid Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur Classic (Auteur Perf Hybrid Pads) _ L.csv"}
+{"name": "Auteur Classic (Auteur Perf Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur Classic (Auteur Perf Leather Pads) _ L.csv"}
+{"name": "Auteur Classic (Auteur Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur Classic (Auteur Perf Suede Pads) _ L.csv"}
+{"name": "Auteur Classic (BE2 Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur Classic (BE2 Perf Suede Pads) _ L.csv"}
+{"name": "Auteur Classic (Eikon Perf Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur Classic (Eikon Perf Leather Pads) _ L.csv"}
+{"name": "Auteur Classic (Eikon Perf Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur Classic (Eikon Perf Suede Pads) _ L.csv"}
+{"name": "Auteur Classic (Universe Perf Leather Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Auteur Classic (Universe Perf Leather Pads) _ R.csv"}
+{"name": "Bathys (Dynamic Preset) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bathys (Dynamic Preset) _ L.csv"}
+{"name": "Bathys ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bathys _ L.csv"}
+{"name": "Bokeh (Hybrid Pads & Burst Mesh) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Hybrid Pads _ Burst Mesh) _ L.csv"}
+{"name": "Bokeh (Hybrid Pads & No Mesh) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Hybrid Pads _ No Mesh) _ R.csv"}
+{"name": "Bokeh (Hybrid Pads & Solid Mesh) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Hybrid Pads _ Solid Mesh) _ L.csv"}
+{"name": "Bokeh (Protein Pads & Burst Mesh) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Protein Pads _ Burst Mesh) _ L.csv"}
+{"name": "Bokeh (Protein Pads & No Mesh) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Protein Pads _ No Mesh) _ L.csv"}
+{"name": "Bokeh (Protein Pads & Solid Mesh) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Protein Pads _ Solid Mesh) _ L.csv"}
+{"name": "Bokeh (Suede Pads & Burst Mesh) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Suede Pads _ Burst Mesh) _ L.csv"}
+{"name": "Bokeh (Suede Pads & No Mesh) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Bokeh (Suede Pads _ No Mesh) _ L.csv"}
+{"name": "Caldera (Cowhide Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Cowhide Pads) _ L.csv"}
+{"name": "Caldera (Cowhide Pads) Sample 2 ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Cowhide Pads) Sample 2 _ L.csv"}
+{"name": "Caldera (Lambskin Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Lambskin Pads) _ L.csv"}
+{"name": "Caldera (Lambskin Pads) Sample 2 ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Lambskin Pads) Sample 2 _ L.csv"}
+{"name": "Caldera (Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Suede Pads) _ L.csv"}
+{"name": "Caldera (Suede Pads) Sample 2 ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Suede Pads) Sample 2 _ R.csv"}
+{"name": "Caldera (Thick Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Thick Pads) _ R.csv"}
+{"name": "Caldera (Thick Pads) Sample 2 ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Caldera (Thick Pads) Sample 2 _ R.csv"}
+{"name": "DT 770 Pro (32 ohm - Beyer Pleather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\DT 770 Pro (32 ohm - Beyer Pleather Pads) _ L.csv"}
+{"name": "DT 770 Pro (80 ohm) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\DT 770 Pro (80 ohm) _ L.csv"}
+{"name": "DT 900 Pro X L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\DT 900 Pro X L.csv"}
+{"name": "Deva Pro (Wired) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Deva Pro (Wired) L.csv"}
+{"name": "Edition XS (Sample 1) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Edition XS (Sample 1) L.csv"}
+{"name": "Edition XS (Sample 2) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Edition XS (Sample 2) L.csv"}
+{"name": "Eikon (Auteur Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Eikon (Auteur Leather Pads) _ L.csv"}
+{"name": "Eikon (Eikon Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Eikon (Eikon Leather Pads) _ L.csv"}
+{"name": "Eikon (Eikon Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Eikon (Eikon Suede Pads) _ L.csv"}
+{"name": "Eikon (Universe Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Eikon (Universe Leather Pads) _ L.csv"}
+{"name": "Empyrean (Leather Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Empyrean (Leather Pads) L.csv"}
+{"name": "Empyrean (Suede Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Empyrean (Suede Pads) L.csv"}
+{"name": "Empyrean 2 (Angled Alcantara Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Empyrean 2 (Angled Alcantara Pads) _ L.csv"}
+{"name": "Empyrean 2 (Duo Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Empyrean 2 (Duo Pads) _ L.csv"}
+{"name": "Game Zero ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Game Zero _ L.csv"}
+{"name": "HD 580 Precision L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 580 Precision L.csv"}
+{"name": "HD 600 (2021 Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 600 (2021 Pads) _ L.csv"}
+{"name": "HD 600 (Soulwit Cooling Gel Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 600 (Soulwit Cooling Gel Pads) _ L.csv"}
+{"name": "HD 600 (ZMF Perf Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 600 (ZMF Perf Leather Pads) _ L.csv"}
+{"name": "HD 650 (ZMF Perf Leather Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 650 (ZMF Perf Leather Pads) L.csv"}
+{"name": "HD 660S2 (ZMF Perf Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 660S2 (ZMF Perf Leather Pads) _ L.csv"}
+{"name": "HD 660S2 ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 660S2 _ L.csv"}
+{"name": "HD 6XX L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 6XX L.csv"}
+{"name": "HD 800 (SDR Mod) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HD 800 (SDR Mod) _ R.csv"}
+{"name": "HE-400SE L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HE-400SE L.csv"}
+{"name": "HE-6 (Sample 2: Focus Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HE-6 (Sample 2_ Focus Pads) L.csv"}
+{"name": "HE-6 (Sample 2: HFM Pleather Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HE-6 (Sample 2_ HFM Pleather Pads) L.csv"}
+{"name": "HE-6 (Sample 2: HFM Velour Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HE-6 (Sample 2_ HFM Velour Pads) L.csv"}
+{"name": "HE-R9 (Sample 1) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HE-R9 (Sample 1) _ L.csv"}
+{"name": "HE-R9 (Sample 2) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\HE-R9 (Sample 2) L.csv"}
+{"name": "Joker ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Joker _ L.csv"}
+{"name": "K361 ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\K361 _ L.csv"}
+{"name": "K712 Pro L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\K712 Pro L.csv"}
+{"name": "LCD-R (Bass Boost ON) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\LCD-R (Bass Boost ON) _ L.csv"}
+{"name": "LCD-R ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\LCD-R _ L.csv"}
+{"name": "Momentum 3 Wireless (HEST ON) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Momentum 3 Wireless (HEST ON) L.csv"}
+{"name": "Momentum 4 Wireless (ANC ON) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Momentum 4 Wireless (ANC ON) _ R.csv"}
+{"name": "Momentum 4 Wireless (Passive) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Momentum 4 Wireless (Passive) _ L.csv"}
+{"name": "Momentum 4 Wireless (Review EQ) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Momentum 4 Wireless (Review EQ) _ L.csv"}
+{"name": "PX7 S2 (ANC ON) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\PX7 S2 (ANC ON) L.csv"}
+{"name": "PX7 S2e (ANC OFF) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\PX7 S2e (ANC OFF) _ L.csv"}
+{"name": "PX7 S2e (ANC ON) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\PX7 S2e (ANC ON) _ L.csv"}
+{"name": "PX7 S2e (EQ: Treble -1,5 & Bass -2,5) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\PX7 S2e (EQ_ Treble -1_5 _ Bass -2_5) _ L.csv"}
+{"name": "SR-1a (Ear Contact & OBC OFF) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\SR-1a (Ear Contact _ OBC OFF) _ R.csv"}
+{"name": "SR-1a (Ear Contact & OBC ON) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\SR-1a (Ear Contact _ OBC ON) _ L.csv"}
+{"name": "SR-1a (No Ear Contact & OBC OFF) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\SR-1a (No Ear Contact _ OBC OFF) _ L.csv"}
+{"name": "SR-1a (No Ear Contact & OBC ON) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\SR-1a (No Ear Contact _ OBC ON) _ L.csv"}
+{"name": "SR-L700 ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\SR-L700 _ L.csv"}
+{"name": "SR125e L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\SR125e L.csv"}
+{"name": "Sundara (2020) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Sundara (2020) _ L.csv"}
+{"name": "Sundara Closed (Sample 1) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Sundara Closed (Sample 1) L.csv"}
+{"name": "Sundara Closed (Sample 2) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Sundara Closed (Sample 2) L.csv"}
+{"name": "Sundara Closed ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Sundara Closed _ L.csv"}
+{"name": "Sundara Silver (Sample 1) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Sundara Silver (Sample 1) _ L.csv"}
+{"name": "Sundara Silver (Sample 2) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Sundara Silver (Sample 2) _ L.csv"}
+{"name": "Susvara ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Susvara _ L.csv"}
+{"name": "T60RP Argon (Xenon Suede Pads & Baffle Upgrade) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\T60RP Argon (Xenon Suede Pads _ Baffle Upgrade) _ L.csv"}
+{"name": "T60RP Argon (Xenon Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\T60RP Argon (Xenon Suede Pads) _ L.csv"}
+{"name": "TR-X00 Purpleheart ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\TR-X00 Purpleheart _ L.csv"}
+{"name": "Utopia ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Utopia _ L.csv"}
+{"name": "Venus ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Venus _ R.csv"}
+{"name": "Verite Closed (Auteur Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Closed (Auteur Leather Pads) _ L.csv"}
+{"name": "Verite Closed (Eikon Leather Pads) ** R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Closed (Eikon Leather Pads) _ R.csv"}
+{"name": "Verite Closed (Eikon Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Closed (Eikon Suede Pads) _ L.csv"}
+{"name": "Verite Closed (Universe Hybrid Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Closed (Universe Hybrid Pads) _ L.csv"}
+{"name": "Verite Closed (Universe Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Closed (Universe Leather Pads) _ L.csv"}
+{"name": "Verite Open (Auteur Perf Hybrid Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Open (Auteur Perf Hybrid Pads) L.csv"}
+{"name": "Verite Open (BE2 Perf Hybrid Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Open (BE2 Perf Hybrid Pads) L.csv"}
+{"name": "Verite Open (BE2 Perf Leather Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Open (BE2 Perf Leather Pads) L.csv"}
+{"name": "Verite Open (Universe Perf Leather Pads) R", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Open (Universe Perf Leather Pads) R.csv"}
+{"name": "Verite Open (Universe Perf Suede Pads) L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\Verite Open (Universe Perf Suede Pads) L.csv"}
+{"name": "YH-5000SE (Leather Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\YH-5000SE (Leather Pads) _ L.csv"}
+{"name": "YH-5000SE (Suede Pads) ** L", "source": "squig:kuulokenurkka", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\kuulokenurkka\\YH-5000SE (Suede Pads) _ L.csv"}
+{"name": "490Pro L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\490Pro L1.csv"}
+{"name": "490ProMP L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\490ProMP L1.csv"}
+{"name": "AC55 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\AC55 L1.csv"}
+{"name": "ADX7000 Clamp L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\ADX7000 Clamp L1.csv"}
+{"name": "ADX7k Velvet L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\ADX7k Velvet L1.csv"}
+{"name": "AKG K240 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\AKG K240 L1.csv"}
+{"name": "AKG K361 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\AKG K361 L1.csv"}
+{"name": "AKG K371 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\AKG K371 L1.csv"}
+{"name": "AKG K52 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\AKG K52 L1.csv"}
+{"name": "Atrium (Kyle) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Atrium (Kyle) L1.csv"}
+{"name": "Audeze LCD-R L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Audeze LCD-R L1.csv"}
+{"name": "Audeze MM 500 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Audeze MM 500 L1.csv"}
+{"name": "Audio Technica ATH-M20x L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Audio Technica ATH-M20x L1.csv"}
+{"name": "Audio Technica ATH-M40x L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Audio Technica ATH-M40x L1.csv"}
+{"name": "Audio Technica ATH-M50x L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Audio Technica ATH-M50x L1.csv"}
+{"name": "Austrian Audio Hi-X55 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Austrian Audio Hi-X55 L1.csv"}
+{"name": "Azurys Back L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Azurys Back L1.csv"}
+{"name": "Azurys L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Azurys L1.csv"}
+{"name": "Azurys S2 LPad Strap L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Azurys S2 LPad Strap L1.csv"}
+{"name": "Azurys S2 LPad Strapless L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Azurys S2 LPad Strapless L1.csv"}
+{"name": "Azurys S2 Strap L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Azurys S2 Strap L1.csv"}
+{"name": "Azurys S2 Strapless L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Azurys S2 Strapless L1.csv"}
+{"name": "Caldera (ThickLamb)(Ishca) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Caldera (ThickLamb)(Ishca) L1.csv"}
+{"name": "Cosmo 6.3mm R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Cosmo 6.3mm R1.csv"}
+{"name": "Cosmo Back L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Cosmo Back L1.csv"}
+{"name": "Cosmo L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Cosmo L1.csv"}
+{"name": "Cosmo Up R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Cosmo Up R1.csv"}
+{"name": "EDGE ANC Off Balanced L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC Off Balanced L1.csv"}
+{"name": "EDGE ANC Off Bass L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC Off Bass L1.csv"}
+{"name": "EDGE ANC Off Country L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC Off Country L1.csv"}
+{"name": "EDGE ANC Off Studio L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC Off Studio L1.csv"}
+{"name": "EDGE ANC Off Violin L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC Off Violin L1.csv"}
+{"name": "EDGE ANC On Balanced R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC On Balanced R1.csv"}
+{"name": "EDGE ANC On Bass L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC On Bass L1.csv"}
+{"name": "EDGE ANC On Country L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC On Country L1.csv"}
+{"name": "EDGE ANC On Studio L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC On Studio L1.csv"}
+{"name": "EDGE ANC On Violin L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\EDGE ANC On Violin L1.csv"}
+{"name": "Edition XS (Dilupus) R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Edition XS (Dilupus) R1.csv"}
+{"name": "Edition XS 2 6.3mm L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Edition XS 2 6.3mm L1.csv"}
+{"name": "Edition XS 2 Back R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Edition XS 2 Back R1.csv"}
+{"name": "Edition XS 2 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Edition XS 2 L1.csv"}
+{"name": "Edition XS 2 Up L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Edition XS 2 Up L1.csv"}
+{"name": "Edition XV L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Edition XV L1.csv"}
+{"name": "Elex L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Elex L1.csv"}
+{"name": "Focal Radiance L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Focal Radiance L1.csv"}
+{"name": "HD 480 Pro L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 480 Pro L1.csv"}
+{"name": "HD 505 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 505 L1.csv"}
+{"name": "HD 550 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 550 L1.csv"}
+{"name": "HD 569 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 569 L1.csv"}
+{"name": "HD 569 Leak R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 569 Leak R1.csv"}
+{"name": "HD 569 More Leak L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 569 More Leak L1.csv"}
+{"name": "HD 620S 6.3mm L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 620S 6.3mm L1.csv"}
+{"name": "HD 620S Back L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 620S Back L1.csv"}
+{"name": "HD 620S Ideal L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 620S Ideal L1.csv"}
+{"name": "HD 620S SD Card L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 620S SD Card L1.csv"}
+{"name": "HD 620S Up L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 620S Up L1.csv"}
+{"name": "HD 660S2 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 660S2 L1.csv"}
+{"name": "HD 6XX Stock R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD 6XX Stock R1.csv"}
+{"name": "HD580BPFP (Floyd) R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD580BPFP (Floyd) R1.csv"}
+{"name": "HD580BS (Floyd) R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD580BS (Floyd) R1.csv"}
+{"name": "HD580BS (Kyle) R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD580BS (Kyle) R1.csv"}
+{"name": "HD600BP (Floyd) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD600BP (Floyd) L1.csv"}
+{"name": "HD600BS (Claire) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD600BS (Claire) L1.csv"}
+{"name": "HD600SS (New Pads) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD600SS (New Pads) L1.csv"}
+{"name": "HD600SS (Old Pads) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD600SS (Old Pads) L1.csv"}
+{"name": "HD650BP (Kyle) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD650BP (Kyle) L1.csv"}
+{"name": "HD650BS (Dilupus) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD650BS (Dilupus) L1.csv"}
+{"name": "HD650BS (Humble) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD650BS (Humble) L1.csv"}
+{"name": "HD650SS (Fuku) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD650SS (Fuku) L1.csv"}
+{"name": "HD800 (Dilupus) R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\HD800 (Dilupus) R1.csv"}
+{"name": "Hi-x60 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Hi-x60 L1.csv"}
+{"name": "Hifiman HE400SE R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Hifiman HE400SE R1.csv"}
+{"name": "Horizon L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Horizon L1.csv"}
+{"name": "Immanis L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Immanis L1.csv"}
+{"name": "Koss KSC75 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Koss KSC75 L1.csv"}
+{"name": "LCD-4 (Humble) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\LCD-4 (Humble) L1.csv"}
+{"name": "LCD-4 (James) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\LCD-4 (James) L1.csv"}
+{"name": "LCD-5S L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\LCD-5S L1.csv"}
+{"name": "LCD-X (Kyle) L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\LCD-X (Kyle) L1.csv"}
+{"name": "Lensys APad Strap L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Lensys APad Strap L1.csv"}
+{"name": "Lensys APad Strapless L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Lensys APad Strapless L1.csv"}
+{"name": "Lensys Strapless L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Lensys Strapless L1.csv"}
+{"name": "MM-100 Loose L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\MM-100 Loose L1.csv"}
+{"name": "MM-100 Tight L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\MM-100 Tight L1.csv"}
+{"name": "MM-500 New L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\MM-500 New L1.csv"}
+{"name": "MM-500 New MoreClamp L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\MM-500 New MoreClamp L1.csv"}
+{"name": "Noire XO Bwd L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Noire XO Bwd L1.csv"}
+{"name": "Noire XO L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Noire XO L1.csv"}
+{"name": "Noire XO Up L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Noire XO Up L1.csv"}
+{"name": "OldFashioned R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\OldFashioned R1.csv"}
+{"name": "Pioneer HDJ-X5 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Pioneer HDJ-X5 L1.csv"}
+{"name": "Pioneer HDJ-X7 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Pioneer HDJ-X7 L1.csv"}
+{"name": "PortaPro Wireless R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\PortaPro Wireless R1.csv"}
+{"name": "Sennheiser HD200 Pro R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Sennheiser HD200 Pro R1.csv"}
+{"name": "Sennheiser HD25 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Sennheiser HD25 L1.csv"}
+{"name": "Sennheiser HD280 Pro L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Sennheiser HD280 Pro L1.csv"}
+{"name": "Sennheiser HD300 Pro L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Sennheiser HD300 Pro L1.csv"}
+{"name": "Sennheiser HD560S R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Sennheiser HD560S R1.csv"}
+{"name": "Sennheiser HD560S S2 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Sennheiser HD560S S2 L1.csv"}
+{"name": "Sennheiser HD800 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Sennheiser HD800 L1.csv"}
+{"name": "Shure SRH440A L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Shure SRH440A L1.csv"}
+{"name": "Shure SRH840A L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Shure SRH840A L1.csv"}
+{"name": "Venus (Dilupus) R1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Venus (Dilupus) R1.csv"}
+{"name": "Yamaha HPH-MT5 L1", "source": "squig:listener", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\listener\\Yamaha HPH-MT5 L1.csv"}
+{"name": "AKG Free Buds R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\AKG Free Buds R.csv"}
+{"name": "Audeze Euclid L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Audeze Euclid L.csv"}
+{"name": "Beyerdynamic Xelento L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Beyerdynamic Xelento L.csv"}
+{"name": "Hifiman Bolt L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Hifiman Bolt L.csv"}
+{"name": "JVC FWX1 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\JVC FWX1 L.csv"}
+{"name": "JVC HAFDX1 (Blue Filter) L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\JVC HAFDX1 (Blue Filter) L.csv"}
+{"name": "JVC HAFDX1 (Green Filter) L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\JVC HAFDX1 (Green Filter) L.csv"}
+{"name": "Moondrop Aria L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Aria L.csv"}
+{"name": "Moondrop Aria Snow L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Aria Snow L.csv"}
+{"name": "Moondrop Blessing 2 Dusk L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Blessing 2 Dusk L.csv"}
+{"name": "Moondrop Blessing 2 R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Blessing 2 R.csv"}
+{"name": "Moondrop Blessing 3 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Blessing 3 L.csv"}
+{"name": "Moondrop Blessing L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Blessing L.csv"}
+{"name": "Moondrop Chu 3 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Chu 3 L.csv"}
+{"name": "Moondrop Chu R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Chu R.csv"}
+{"name": "Moondrop Dark Saber R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Dark Saber R.csv"}
+{"name": "Moondrop Illumination L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Illumination L.csv"}
+{"name": "Moondrop Illumination S2 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Illumination S2 L.csv"}
+{"name": "Moondrop Illustrious L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Illustrious L.csv"}
+{"name": "Moondrop KXXS L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop KXXS L.csv"}
+{"name": "Moondrop KXXX L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop KXXX L.csv"}
+{"name": "Moondrop Kanas Pro L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Kanas Pro L.csv"}
+{"name": "Moondrop Kato (Gold) L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Kato (Gold) L.csv"}
+{"name": "Moondrop Kato (Silver) R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Kato (Silver) R.csv"}
+{"name": "Moondrop LAN L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop LAN L.csv"}
+{"name": "Moondrop May L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop May L.csv"}
+{"name": "Moondrop Quarks L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Quarks L.csv"}
+{"name": "Moondrop S8 R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop S8 R.csv"}
+{"name": "Moondrop SSR L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop SSR L.csv"}
+{"name": "Moondrop Solis 2 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Solis 2 L.csv"}
+{"name": "Moondrop Solis L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Solis L.csv"}
+{"name": "Moondrop Spaceship R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Spaceship R.csv"}
+{"name": "Moondrop Sparks L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Sparks L.csv"}
+{"name": "Moondrop Starfield II L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Starfield II L.csv"}
+{"name": "Moondrop Starfield L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Starfield L.csv"}
+{"name": "Moondrop Stellaris L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Stellaris L.csv"}
+{"name": "Moondrop Variations L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Variations L.csv"}
+{"name": "Moondrop Variations S2 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Variations S2 L.csv"}
+{"name": "Moondrop Variations S3 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop Variations S3 L.csv"}
+{"name": "Moondrop x Crinacle Dusk R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Moondrop x Crinacle Dusk R.csv"}
+{"name": "Sennheiser IE200 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE200 L.csv"}
+{"name": "Sennheiser IE300 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE300 L.csv"}
+{"name": "Sennheiser IE600 R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE600 R.csv"}
+{"name": "Sennheiser IE600 S2 R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE600 S2 R.csv"}
+{"name": "Sennheiser IE900 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE900 L.csv"}
+{"name": "Sennheiser IE900 S2 (no filter) R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE900 S2 (no filter) R.csv"}
+{"name": "Sennheiser IE900 S2 (w Filter Before) R", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE900 S2 (w Filter Before) R.csv"}
+{"name": "Sennheiser IE900 S2 L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE900 S2 L.csv"}
+{"name": "Sennheiser IE900 S2 No EQ L", "source": "squig:precog", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\precog\\Sennheiser IE900 S2 No EQ L.csv"}
+{"name": "Audeze Euclid L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Audeze Euclid L.csv"}
+{"name": "Audio-Technica ATH-ANC300TW L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Audio-Technica ATH-ANC300TW L.csv"}
+{"name": "HIFIMAN RE2000 Pro Gold L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HIFIMAN RE2000 Pro Gold L.csv"}
+{"name": "HIFIMAN Svanar L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HIFIMAN Svanar L.csv"}
+{"name": "HIFIMAN Svanar S2 L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HIFIMAN Svanar S2 L.csv"}
+{"name": "HIFIMAN Svanar S3 L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HIFIMAN Svanar S3 L.csv"}
+{"name": "HIFIMAN Svanar S4 L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HIFIMAN Svanar S4 L.csv"}
+{"name": "HIFIMAN Svanar Wireless L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HIFIMAN Svanar Wireless L.csv"}
+{"name": "HIFIMAN TWS800 R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HIFIMAN TWS800 R.csv"}
+{"name": "HarmonicDyne P.D.1 L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\HarmonicDyne P.D.1 L.csv"}
+{"name": "MOONDROP Aria Snow Edition L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Aria Snow Edition L.csv"}
+{"name": "MOONDROP Blessing 3 L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Blessing 3 L.csv"}
+{"name": "MOONDROP Concerto L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Concerto L.csv"}
+{"name": "MOONDROP Droplet L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Droplet L.csv"}
+{"name": "MOONDROP LAN L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP LAN L.csv"}
+{"name": "MOONDROP NEKOCAKE L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP NEKOCAKE L.csv"}
+{"name": "MOONDROP STELLARIS L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP STELLARIS L.csv"}
+{"name": "MOONDROP Solis 2 L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Solis 2 L.csv"}
+{"name": "MOONDROP Solis 2 UC L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Solis 2 UC L.csv"}
+{"name": "MOONDROP Starfield 2 R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Starfield 2 R.csv"}
+{"name": "MOONDROP Starfield 2 bass L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP Starfield 2 bass L.csv"}
+{"name": "MOONDROP x Crinacle Dusk DSP Bass+ L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP x Crinacle Dusk DSP Bass+ L.csv"}
+{"name": "MOONDROP x Crinacle Dusk DSP Diffuse L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP x Crinacle Dusk DSP Diffuse L.csv"}
+{"name": "MOONDROP x Crinacle Dusk DSP Harman L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP x Crinacle Dusk DSP Harman L.csv"}
+{"name": "MOONDROP x Crinacle Dusk DSP V R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP x Crinacle Dusk DSP V R.csv"}
+{"name": "MOONDROP x Crinacle Dusk DSP default R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP x Crinacle Dusk DSP default R.csv"}
+{"name": "MOONDROP x Crinacle Dusk analog L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\MOONDROP x Crinacle Dusk analog L.csv"}
+{"name": "Meze Alba L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Meze Alba L.csv"}
+{"name": "Moondrop Aria L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Aria L.csv"}
+{"name": "Moondrop CHU 2 R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop CHU 2 R.csv"}
+{"name": "Moondrop CHU L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop CHU L.csv"}
+{"name": "Moondrop KATO L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop KATO L.csv"}
+{"name": "Moondrop Quark2 L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Quark2 L.csv"}
+{"name": "Moondrop Quark2 deep R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Quark2 deep R.csv"}
+{"name": "Moondrop Quarks DSP L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Quarks DSP L.csv"}
+{"name": "Moondrop Space Travel basshead L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Space Travel basshead L.csv"}
+{"name": "Moondrop Space Travel monitor R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Space Travel monitor R.csv"}
+{"name": "Moondrop Space Travel reference L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Space Travel reference L.csv"}
+{"name": "Moondrop Sparks L", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Moondrop Sparks L.csv"}
+{"name": "Sennheiser CX True Wireless R", "source": "squig:vsg", "coupler": null, "basis": "population", "csv": "data\\squig_csv\\vsg\\Sennheiser CX True Wireless R.csv"}
